@@ -1,0 +1,2 @@
+Unpack StreamingAssets on EFTclient\EscapeFromTarkov_Data\
+Make backup EFTclient\EscapeFromTarkov_Data\StreamingAssets\Windows\assets\content\items\equipment\rig_m1

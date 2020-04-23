@@ -1,0 +1,3 @@
+https://discordapp.com/channels/602532198587039745/602533402402619422/679006755795238923
+
+Got it: EscapeFromTarkov_Data\StreamingAssets\Windows\assets\content\items\equipment\facecover_halloween_slander\item_equipment_facecover_halloween_slander.bundle -> facecover_HALLOWEEN_Slander_d
