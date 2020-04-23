@@ -1,9 +1,9 @@
 
-# EmuTarkov -- Renamed Bots
+# [private] -- Renamed Bots
 
-This mod provides random English names to replace the 1,786 random Russian names for bots in EmuTarkov.
+This mod provides random English names to replace the 1,786 random Russian names for bots in [private].
 Currently bot modding is not implemented, so you will need to copy this mod directly 
-into the DB/bots folders. The names list is compiled from EFT Twitch Streamers and the Tarkov Leaderboards.
+into the DB/bots folders. The names list is compiled from [private] Twitch Streamers and the [private] Leaderboards.
 
 I personally only use these names to replace the USEC/BEAR PMC names, but it should work
 if you wanted to use these in place of the Russian Scav names as well.

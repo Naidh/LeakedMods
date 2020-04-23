@@ -5,7 +5,7 @@ This is compatible with my olympus mod, but it does need to be listed after it. 
 
 
 
-CONFLICTS with EmuTarkov-AllItemsExamined-*anyVersion* (work-around, see below).
+CONFLICTS with Emu-AllItemsExamined-*anyVersion* (work-around, see below).
 CONFLICTS with Miku-NoHolsterRestriction-*anyVersion* (work-around, see below).
 
 Color coded ammo based on pen/flesh damage values

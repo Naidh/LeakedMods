@@ -1,5 +1,5 @@
-# EmuTarkov-ServerMods - Items folder
-This folder contains all items related mods for JustEmuTarkov
+# [private]-ServerMods - Items folder
+This folder contains all items related mods for [private]
 
 ## Mod list and description
 
@@ -8,9 +8,6 @@ This mod adds in overpowered armor, magazines with 1000 ammo capacity, overpower
 
 ### Blyto-FullFastV1-1.0.0 - Made by Blyto
 Allows the user to attach all Ops-Core Fast MT Accessories.
-
-### EmuTarkov-AllItemsExamined-1.0.0
-This mod makes it so all items are examined by default.
 
 ### Frumorn-Auto17-1.0.0 - Made by Frumorn
 Adds full-auto at 1200 rounds per minute to GLOCK17 so you can keep muzzle attachment without using GLOCK18C.
@@ -61,8 +58,6 @@ My QOL mod - Changed money stacks to one million, ammo to 500, keytool 10x10 siz
 
 ### Miku-CaseInPouch-1.0.0 - Made by Miku
 This mod allows you to place certain cases in the pouch slot.
-
-### Miku-InventoryQOL-1.0.0 - Made by Miku
 
 ### Miku-NoHolsterRestriction-1.0.0 - Made by Miku
 This mod makes it so you can have a primary weapon in the pistol and melee weapon slots.

@@ -1,5 +1,5 @@
-# EmuTarkov-ServerMods
-A repository containing mods made for the EmuTarkov-Server
+# [private]-ServerMods
+A repository containing mods made for the [private]-Server
 
 ## **```/!\ IMPORTANT /!\```**
 - **THIS REPOSITORY IS NOT A MOD**
@@ -19,12 +19,5 @@ The Author name is the first part of the folder name<br>
 The name of the mod, is the second part of the folder name<br>
 The version number is the third part of the folder name<br>
 
-eg : EmuTarkov-EnableMultiplayerMod-1.0.0<br>
-EmuTarkov is the author, EnableMultiplayerMod is the name, 1.0.0 is the version number<br>
-
-# Official links
-**Discord link**: https://discord.gg/3sR4KKS
-
-**Modding Tutorials**: https://justemutarkov.github.io/Wiki/#/tutorials/create_a_mod
-
-**Reddit page**: https://www.reddit.com/r/EmuTarkov/
+eg : [private]-EnableMultiplayerMod-1.0.0<br>
+[private] is the author, EnableMultiplayerMod is the name, 1.0.0 is the version number<br>

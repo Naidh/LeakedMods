@@ -1,5 +1,5 @@
-# EmuTarkov-ServerMods - Hideout folder
-This folder contain all hideout related mods for JustEmuTarkov
+# [private]-ServerMods - Hideout folder
+This folder contain all hideout related mods for [private]
 ## Mod list and description
 
 ### enhausser-AmmoCraftingExtended-1.0.0 - Made by enhausser

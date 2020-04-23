@@ -2,7 +2,7 @@ README: Version 0.12.4-R2
 INTALL:
 1. Create a folder called mods inside server/user/mods
 2. Copies the modTalkol-PussyMode1.1.1 folder to the created mods folder.
-3.Launch the server and after it loads the entire EmuTarkov launcher.
+3.Launch the server and after it loads the entire [private] launcher.
 
 NOTES:
 ModTarkol is a fusion of different mods, which modify the gaming experience:

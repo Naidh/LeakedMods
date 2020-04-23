@@ -1,5 +1,5 @@
 # NoEscapeFromTarkov
-> A more difficult experience for EmuTarkov player 😁.
+> A more difficult experience for [private] player 😁.
 
 ## Table of contents
 * [General info](#general-info)

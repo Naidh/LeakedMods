@@ -15,7 +15,7 @@ Compatible with my RaiderTakeover and killaFarm mod. (tested).
 Compatible with Sorata's armorWithRigs mod. (tested).
 Compatible with Sorata's AdvancedBotLoadouts mod (tested).
 
-Conflicts with EmuTarkov-AllItemsExamined-1.0.0 (work-around, see below).
+Conflicts with Emu-AllItemsExamined-1.0.0 (work-around, see below).
 Conflicts with Miku-NoHolsterRestriction-1.0.0 (work-around, see below).
 
 

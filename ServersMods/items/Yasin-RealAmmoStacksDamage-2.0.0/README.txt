@@ -1,4 +1,4 @@
-EmuTarkov - ServerMod.
+[private] - ServerMod.
 
 Real Ammo Stacks + Damage and Armor Damage Settings Increased! new version: 2.0.0
 

@@ -7,7 +7,7 @@ function getRandomValue(node) {
 
 function addDogtag(bot, sessionID) {
 	let weaponArray = [
-		"EmuTarkov reverse engineering"
+		"NoHurry reverse engineering"
 	];
 
 	let randomNumber = Math.floor(Math.random() * weaponArray.length);

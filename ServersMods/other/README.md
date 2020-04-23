@@ -1,4 +1,4 @@
-# EmuTarkov-ServerMods - Other folder
+# [private]-ServerMods - Other folder
 This folder contain all mods that are not related to any other folder in the repo.
 
 
@@ -26,7 +26,7 @@ Disables using scavs on any map.
 This forces the player to use their PMC for all raids.
 
 ### Sorata-OverTheRainbow-1.0.0
-This mod just break out the limit between you, and the lvl 81 of the game. That mean you can now be lvl 81 in EmuTarkov.
+This mod just break out the limit between you, and the lvl 81 of the game. That mean you can now be lvl 81 in [private].
 Only lvl80 image is fucked up, blame BSG for this
 
 ### Prospero-GoodWeather-1.0.0

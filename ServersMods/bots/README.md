@@ -1,5 +1,5 @@
-# EmuTarkov-ServerMods - Bot folder
-This folder contain all bots related mods for JustEmuTarkov
+# [private]-ServerMods - Bot folder
+This folder contain all bots related mods for [private]
 ## Mod list and description
 
 ### Beaubot-RenamedBots-1.0.0 - Made by Beaubot

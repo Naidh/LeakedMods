@@ -1,4 +1,4 @@
-# EmuTarkov-ServerMods - Trader folder
+# [private]-ServerMods - Trader folder
 This folder contain all mods that are traders related mods.
 
 
@@ -12,7 +12,7 @@ This mod change the Therapist avatar to Senko avatar
 /!\ In order to use this mod, you need to wipe your profile /!\
 This mod adds a new trader to the tradeer list
 
-### EmuTarkov-AllClothesForFree-1.0.0
+### Emu-AllClothesForFree-1.0.0
 This mod remove all restrictions to buy all clothes and make them free. This make all clothes sides free too
 
 ### AssAssIn-dsHardCore-1.0.0

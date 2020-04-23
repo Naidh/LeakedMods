@@ -1,4 +1,4 @@
-# EmuTarkov-ClientMods
+# [private]-ClientMods
 A repository containing mods made for the client of Escape From Tarkov as weapons skins for exemple.
 
 ## **```/!\ IMPORTANT /!\```**
@@ -7,18 +7,12 @@ A repository containing mods made for the client of Escape From Tarkov as weapon
 
 ## How to install a client mod ?
 
-1. Download the desired mod from here https://github.com/justemutarkov/EmuTarkov-ClientMods/releases
-2. Make a backup of the same file from the archive in `GameDir/EscapeFromTarkov_Data/`
-3. Drop the folder *StreamingAssets* into `GameDir/EscapeFromTarkov_Data/`
+1. Download the desired mod from here [private]
+2. Make a backup of the same file from the archive in `GameDir/`
+3. Drop the folder *StreamingAssets* into `GameDir/`
 4. Replace all files
 5. Restart the game
 
 ## Note:
 You want to know how to create and edit a item texture ? Here's a tutorial for you :
-- https://github.com/KandaSoranyan/JustEmuTarkovWiki/blob/master/tutorials/edit_weapons_texture.md
-
-
-# Official links
-**Discord link**: https://discord.gg/3sR4KKS
-
-**Reddit page**: https://www.reddit.com/r/EmuTarkov/
+- [private]

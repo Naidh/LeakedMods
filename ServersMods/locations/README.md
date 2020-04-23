@@ -1,12 +1,12 @@
-# EmuTarkov-ServerMods - Maps folder
-This folder contain all maps related mods for JustEmuTarkov
+# [private]-ServerMods - Maps folder
+This folder contain all maps related mods for [private]
 
 ## Mod list and description
 
 ### AssAssIn-KillaFarm-1.0.0 - Made by AssAssIn
 This mod changes all normal scavs spawn on all maps to the Killa boss.
 
-### EmuTarkov-AllOfficialLoot-1.0.0
+### Emu-AllOfficialLoot-1.0.0
 This mod greatly increases the variety of loot that can be found in raid, adding in all the official map loot.
 
 ### Leorocky-NoEscapeFromTarkov-1.0.3 - Made by Leorocky

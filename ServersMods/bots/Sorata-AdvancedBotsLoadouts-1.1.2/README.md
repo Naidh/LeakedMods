@@ -13,14 +13,6 @@ You will, because it seems that the game select a bunch of presets at the beginn
 **Will the loot have the in raid state ?**
 YES it will !! I managed to get most of the items to have the in raid state, except for weapons and some scopes. So have fun for the future quests ! :slight_smile:
 
-
-**Where do i download this freaking amazing shit ?**
-Here is the download link for the actual files : 
-/!\ This is only supported for **0.12.4-R2** versions of the game. Don't use it for older versions you may have issues with it/!\
-
-> https://github.com/justemutarkov/EmuTarkov-ServerMods/releases
-
-
 **Will be other version of this mod ?**
 YES there will. I will work on differents versions of the mod for differents purposes.
 For exemple next work is to have a version that "emulate" PMC as scavs, and i will try to add them those freaking dogtags. I got a bunch of weapons presets specially made for this PMC version from @jessica_r#5493 and @Bear#7174 and i'm thanksfull for that it saved me a lot of time.
@@ -37,7 +29,7 @@ You can send me other weapons presets if you wish ! For doing so, make your weap
 
 Here is how you install this mod, follow all steps and it's good !
 
-	1. First is to download the last version of the mod here : hhttps://github.com/justemutarkov/EmuTarkov-ServerMods/releases
+	1. First is to download the last version of the mod here release tab
 	2. Drop the folder Sorata-AdvancedBotsLoadouts in *user/mods*.
 	3. Restart the server.
 	4. Go into a raid.
