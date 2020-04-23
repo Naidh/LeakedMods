@@ -1,0 +1,34 @@
+{
+	"BossName": "bossGluhar",
+	"BossChance": 41,
+	"BossZone": "BotZone",
+	"BossPlayer": false,
+	"BossDifficult": "normal",
+	"BossEscortType": "followerGluharAssault",
+	"BossEscortDifficult": "normal",
+	"BossEscortAmount": "2",
+	"Time": 1500,
+	"Supports": [
+		{
+			"BossEscortType": "followerGluharAssault",
+			"BossEscortDifficult": [
+				"normal"
+			],
+			"BossEscortAmount": "2"
+		},
+		{
+			"BossEscortType": "followerGluharSecurity",
+			"BossEscortDifficult": [
+				"normal"
+			],
+			"BossEscortAmount": "2"
+		},
+		{
+			"BossEscortType": "followerGluharScout",
+			"BossEscortDifficult": [
+				"normal"
+			],
+			"BossEscortAmount": "2"
+		}
+	]
+}

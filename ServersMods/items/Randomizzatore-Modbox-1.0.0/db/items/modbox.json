@@ -1,0 +1,105 @@
+{
+	"_id": "modbox",
+	"_name": "item_container_modbox",
+	"_parent": "5795f317245977243854e041",
+	"_type": "Item",
+	"_props": {
+		"Name": "modbox",
+		"ShortName": "modbox",
+		"Description": "modbox",
+		"Weight": 15,
+		"BackgroundColor": "violet",
+		"Width": 4,
+		"Height": 4,
+		"StackMaxSize": 1,
+		"Rarity": "Not_exist",
+		"SpawnChance": 4,
+		"CreditsPrice": 1000000,
+		"ItemSound": "container_metal",
+		"Prefab": {
+			"path": "assets/content/items/containers/item_container_secured_kappa/item_container_secured_kappa.bundle",
+			"rcid": ""
+		},
+		"UsePrefab": {
+			"path": "",
+			"rcid": ""
+		},
+		"StackObjectsCount": 1,
+		"NotShownInSlot": false,
+		"ExaminedByDefault": true,
+		"ExamineTime": 1,
+		"IsUndiscardable": false,
+		"IsUnsaleable": false,
+		"IsUnbuyable": false,
+		"IsUngivable": false,
+		"IsLockedafterEquip": false,
+		"QuestItem": false,
+		"LootExperience": 30,
+		"ExamineExperience": 10,
+		"HideEntrails": true,
+		"RepairCost": 0,
+		"RepairSpeed": 0,
+		"ExtraSizeLeft": 0,
+		"ExtraSizeRight": 0,
+		"ExtraSizeUp": 0,
+		"ExtraSizeDown": 0,
+		"ExtraSizeForceAdd": false,
+		"MergesWithChildren": false,
+		"CanSellOnRagfair": true,
+		"CanRequireOnRagfair": true,
+		"BannedFromRagfair": false,
+		"ConflictingItems": [],
+		"FixedPrice": false,
+		"Unlootable": false,
+		"UnlootableFromSlot": "FirstPrimaryWeapon",
+		"UnlootableFromSide": [],
+		"ChangePriceCoef": 1,
+		"AllowSpawnOnLocations": [],
+		"SendToClient": true,
+		"AnimationVariantsNumber": 0,
+		"DiscardingBlock": false,
+		"Grids": [
+			{
+				"_name": "main",
+				"_id": "justagrid",
+				"_parent": "modbox",
+				"_props": {
+					"filters": [
+						{
+							"Filter": [
+								"55818a304bdc2db5418b457d",
+								"55818a684bdc2ddd698b456d",
+								"56ea9461d2720b67698b456f",
+								"55818a104bdc2db9688b4569",
+								"555ef6e44bdc2de9068b457e",
+								"55818a594bdc2db9688b456a",
+								"55818b224bdc2dde698b456f",
+								"55818b014bdc2ddc698b456b",
+								"55818a6f4bdc2db9688b456b",
+								"5a74651486f7744e73386dd1",
+								"5448fe7a4bdc2d6f028b456b",
+								"55818b0e4bdc2dde698b456e",
+								"5448fe394bdc2d0d028b456c",
+								"55818af64bdc2d5b648b4570",
+								"55818afb4bdc2dde698b456d"
+							],
+							"ExcludedFilter": []
+						}
+					],
+					"cellsH": 14,
+					"cellsV": 14,
+					"minCount": 0,
+					"maxCount": 0,
+					"maxWeight": 0
+				},
+				"_proto": "55d329c24bdc2d892f8b4567"
+			}
+		],
+		"Slots": [],
+		"CanPutIntoDuringTheRaid": true,
+		"CantRemoveFromSlotsDuringRaid": [],
+		"TagColor": 0,
+		"TagName": ""
+	},
+	"_proto": "577e1c9d2459773cd707c525"
+}

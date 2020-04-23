@@ -1,0 +1,107 @@
+{
+	"Id": "Lootable_00420",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5db5d0505442d7070d0f472a",
+	"Items": [
+		{
+			"_id": "5db5d0505442d7070d0f472a",
+			"_tpl": "5d6d2bb386f774785b07a77a"
+		},
+		{
+			"_id": "5db5d0505442d7070d0f472b",
+			"_tpl": "56dff4a2d2720bbd668b456a",
+			"parentId": "5db5d0505442d7070d0f472a",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			},
+			"upd": {
+				"StackObjectsCount": 10
+			}
+		},
+		{
+			"_id": "5db5d0505442d7070d0f472c",
+			"_tpl": "56dff061d2720bb5668b4567",
+			"parentId": "5db5d0505442d7070d0f472a",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 0,
+				"r": 0
+			},
+			"upd": {
+				"StackObjectsCount": 25
+			}
+		},
+		{
+			"_id": "5db5d0505442d7070d0f472d",
+			"_tpl": "576a581d2459771e7b1bc4f1",
+			"parentId": "5db5d0505442d7070d0f472a",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 0,
+				"r": 1
+			}
+		},
+		{
+			"_id": "5db5d0505442d7070d0f472e",
+			"_tpl": "576a5ed62459771e9c2096cb",
+			"parentId": "5db5d0505442d7070d0f472d",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5db5d0505442d7070d0f4730",
+			"_tpl": "56d59d3ad2720bdb418b4577",
+			"parentId": "5db5d0505442d7070d0f472e",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 10
+			}
+		},
+		{
+			"_id": "5db5d0505442d7070d0f472f",
+			"_tpl": "576a63cd2459771e796e0e11",
+			"parentId": "5db5d0505442d7070d0f472d",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "5db5d0505442d7070d0f4731",
+			"_tpl": "5d1b392c86f77425243e98fe",
+			"parentId": "5db5d0505442d7070d0f472a",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 1,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5db5d0505442d7070d0f4732",
+			"_tpl": "575146b724597720a27126d5",
+			"parentId": "5db5d0505442d7070d0f472a",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 1,
+				"r": 0
+			}
+		}
+	]
+}

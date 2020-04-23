@@ -1,0 +1,113 @@
+{
+	"_id": "ares5728",
+	"_name": "ares5728",
+	"_parent": "5448bc234bdc2d3c308b4569",
+	"_type": "Item",
+	"_props": {
+		"Name": "ares5728",
+		"ShortName": "ares5728",
+		"Description": "ares5728",
+		"Weight": 0.01, 
+		"BackgroundColor": "red",
+		"Width": 1,
+		"Height": 1,
+		"StackMaxSize": 1,
+		"Rarity": "Not_exist",
+		"SpawnChance": 14,
+		"CreditsPrice": 250000,
+		"ItemSound": "magazine_metal",
+		"Prefab": {
+			"path": "assets/content/items/mods/magazines/mag_57_fn_five_seven_std_57x28_20.bundle",
+			"rcid": ""
+		},
+		"UsePrefab": {
+			"path": "",
+			"rcid": ""
+		},
+		"StackObjectsCount": 1,
+		"NotShownInSlot": false,
+		"ExaminedByDefault": true,
+		"ExamineTime": 1,
+		"IsUndiscardable": false,
+		"IsUnsaleable": false,
+		"IsUnbuyable": false,
+		"IsUngivable": false,
+		"IsLockedafterEquip": false,
+		"QuestItem": false,
+		"LootExperience": 15,
+		"ExamineExperience": 2,
+		"HideEntrails": false,
+		"RepairCost": 0,
+		"RepairSpeed": 0,
+		"ExtraSizeLeft": 0,
+		"ExtraSizeRight": 0,
+		"ExtraSizeUp": 0,
+		"ExtraSizeDown": 0,
+		"ExtraSizeForceAdd": false,
+		"MergesWithChildren": true,
+		"CanSellOnRagfair": true,
+		"CanRequireOnRagfair": true,
+		"BannedFromRagfair": false,
+		"ConflictingItems": [],
+		"FixedPrice": false,
+		"Unlootable": false,
+		"UnlootableFromSlot": "FirstPrimaryWeapon",
+		"UnlootableFromSide": [],
+		"ChangePriceCoef": 1,
+		"AllowSpawnOnLocations": [],
+		"SendToClient": false,
+		"AnimationVariantsNumber": 0,
+		"DiscardingBlock": false,
+		"Grids": [],
+		"Slots": [],
+		"CanPutIntoDuringTheRaid": true,
+		"CantRemoveFromSlotsDuringRaid": [],
+		"Durability": 100,
+		"Accuracy": 100,
+		"Recoil": -100,
+		"Loudness": 0,
+		"EffectiveDistance": 0,
+		"Ergonomics": 100,
+		"Velocity": 0,
+		"RaidModdable": true,
+		"ToolModdable": false,
+		"BlocksFolding": false,
+		"BlocksCollapsible": false,
+		"IsAnimated": false,
+		"HasShoulderContact": false,
+		"SightingRange": 0,
+		"magAnimationIndex": 0,
+		"Cartridges": [
+			{
+				"_name": "cartridges",
+				"_id": "5cbdaf89ae9215000e5b9c96",
+				"_parent": "ares5728",
+				"_max_count": 1000,
+				"_props": {
+					"filters": [
+						{
+							"Filter": [
+								"5cc80f53e4a949000e1ea4f8",
+								"5cc86832d7f00c000d3a6e6c",
+								"5cc86840d7f00c002412c56c",
+								"5cc80f67e4a949035e43bbba",
+								"5cc80f38e4a949001152b560",
+								"5cc80f8fe4a949033b0224a2",
+								"5cc80f79e4a949033c7343b2"
+							]
+						}
+					]
+				},
+				"_proto": "5748538b2459770af276a261"
+			}
+		],
+		"CanFast": true,
+		"CanHit": false,
+		"CanAdmin": false,
+		"LoadUnloadModifier": -100,
+		"CheckTimeModifier": -100,
+		"CheckOverride": 0,
+		"ReloadMagType": "ExternalMagazine",
+		"VisibleAmmoRangesString": "1-3"
+	}
+}

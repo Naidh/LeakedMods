@@ -1,0 +1,29 @@
+{
+	"name": "Lockbox",
+	"author": "Psifour",
+	"version": "1.0.0",
+	"license": "MIT",
+	"dependencies": {},
+	"res": {},
+	"src": {},
+	"db": {
+		"items": {
+			"lockbox_alpha": "db/items/lockbox_alpha.json",
+			"lockbox_beta": "db/items/lockbox_beta.json",
+			"lockbox_epsilon": "db/items/lockbox_epsilon.json",
+			"lockbox_gamma": "db/items/lockbox_gamma.json",
+			"lockbox_kappa": "db/items/lockbox_kappa.json"
+		},
+		"locales": {
+			"en": {
+				"templates": {
+					"lockbox_alpha": "db/locales/en/templates/lockbox_alpha.json",
+					"lockbox_beta": "db/locales/en/templates/lockbox_beta.json",
+					"lockbox_epsilon": "db/locales/en/templates/lockbox_epsilon.json",
+					"lockbox_gamma": "db/locales/en/templates/lockbox_gamma.json",
+					"lockbox_kappa": "db/locales/en/templates/lockbox_kappa.json"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,199 @@
+{
+	"_id": "firstQuest_terragroupSpecialist",
+	"traderId": "579dc571d53a0658a154fbec",
+	"location": "5704e5fad2720bc05b8b4567",
+	"image": "/files/quest/firstQuest_terragroupSpecialist.png",
+	"type": "Elimination",
+	"isKey": false,
+	"restartable": false,
+	"min_level": 0,
+	"canShowNotificationsInGame": true,
+	"rewards": {
+		"Started": [],
+		"Success": [
+			{
+				"value": "50000",
+				"id": "ExperienceID",
+				"type": "Experience",
+				"index": 0
+			},
+			{
+				"target": "TerraGroup_Specialist",
+				"id": "firstQuest_terragroupSpecialist_TraderUnlock",
+				"type": "TraderUnlock",
+				"index": 1
+			}
+		],
+		"Fail": []
+	},
+	"conditions": {
+		"AvailableForStart": [
+			{
+				"_parent": "Level",
+				"_props": {
+					"compareMethod": ">=",
+					"value": "50",
+					"index": 0,
+					"parentId": "",
+					"id": "firstQuest_terragroupSpecialist_levelRequir"
+				}
+			},
+			{
+				"_parent": "Quest",
+				"_props": {
+					"target": "5c51aac186f77432ea65c552",
+					"status": 4,
+					"index": 1,
+					"parentId": "",
+					"id": "firstQuest_terragroupSpecialist_questRequir"
+				}
+			}
+		],
+		"AvailableForFinish": [
+			{
+				"_parent": "CounterCreator",
+				"_props": {
+					"value": "1",
+					"type": "Elimination",
+					"counter": {
+						"id": "firstQuest_terragroupSpecialist_counter",
+						"conditions": [
+							{
+								"_parent": "Kills",
+								"_props": {
+									"target": "Savage",
+									"compareMethod": ">=",
+									"value": "1",
+									"savageRole": [
+										"bossGluhar"
+									],
+									"id": "firstQuest_terragroupSpecialist_condition"
+								}
+							}
+						]
+					},
+					"index": 0,
+					"parentId": "",
+					"id": "firstQuest_terragroupSpecialist_FirstRequir"
+				}
+			},
+			{
+				"_parent": "CounterCreator",
+				"_props": {
+					"value": "1",
+					"type": "Elimination",
+					"counter": {
+						"id": "firstQuest_terragroupSpecialist_counter2",
+						"conditions": [
+							{
+								"_parent": "Kills",
+								"_props": {
+									"target": "Savage",
+									"compareMethod": ">=",
+									"value": "1",
+									"savageRole": [
+										"followerGluharAssault"
+									],
+									"id": "firstQuest_terragroupSpecialist_condition2"
+								}
+							}
+						]
+					},
+					"index": 1,
+					"parentId": "",
+					"id": "firstQuest_terragroupSpecialist_FirstRequir2"
+				}
+			},
+				{
+					"_parent": "CounterCreator",
+					"_props": {
+						"value": "1",
+						"type": "Elimination",
+						"counter": {
+							"id": "firstQuest_terragroupSpecialist_counter3",
+							"conditions": [
+								{
+									"_parent": "Kills",
+									"_props": {
+										"target": "Savage",
+										"compareMethod": ">=",
+										"value": "1",
+										"savageRole": [
+											"followerGluharScout"
+										],
+										"id": "firstQuest_terragroupSpecialist_condition3"
+									}
+								}
+							]
+						},
+						"index": 2,
+						"parentId": "",
+						"id": "firstQuest_terragroupSpecialist_FirstRequir3"
+					}
+				},
+					{
+						"_parent": "CounterCreator",
+						"_props": {
+							"value": "1",
+							"type": "Elimination",
+							"counter": {
+								"id": "firstQuest_terragroupSpecialist_counter4",
+								"conditions": [
+									{
+										"_parent": "Kills",
+										"_props": {
+											"target": "Savage",
+											"compareMethod": ">=",
+											"value": "1",
+											"savageRole": [
+												"followerGluharSecurity"
+											],
+											"id": "firstQuest_terragroupSpecialist_condition4"
+										}
+									}
+								]
+							},
+							"index": 3,
+							"parentId": "",
+							"id": "firstQuest_terragroupSpecialist_FirstRequir4"
+						}
+					},
+					{
+						"_parent": "FindItem",
+						"_props": {
+							"target": [
+								"terragroupSpecialist_ssdDrive"
+							],
+							"value": "1",
+							"minDurability": 0,
+							"index": 4,
+							"parentId": "",
+							"id": "firstQuest_terragroupSpecialist_FindItem"
+						}
+					},
+					{
+						"_parent": "HandoverItem",
+						"_props": {
+							"target": [
+								"terragroupSpecialist_ssdDrive"
+							],
+							"value": "1",
+							"minDurability": 0,
+							"index": 5,
+							"parentId": "",
+							"id": "firstQuest_terragroupSpecialist_Handover",
+							"visibilityConditions": [
+								{
+									"_parent": "CompleteCondition",
+									"_props": {
+										"target": "firstQuest_terragroupSpecialist_FindItem",
+										"id": "firstQuest_terragroupSpecialist_condition5"
+									}
+								}
+							]
+						}
+					}
+		],
+		"Fail": []
+	}
+}

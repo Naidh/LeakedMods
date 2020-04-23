@@ -1,0 +1,279 @@
+{
+	"items": [
+		{
+			"_id": "5c6687d65e9d882c8841f0fd",
+			"_tpl": "55d7217a4bdc2d86028b456d"
+		},
+		{
+			"_id": "5c6687d65e9d882c8841f121",
+			"_tpl": "557ffd194bdc2d28148b457f",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "Pockets"
+		},
+		{
+			"_id": "5c6687d65e9d882c8841f0fc",
+			"_tpl": "566abbc34bdc2d92178b4576"
+		},
+		{
+			"_id": "5c6687d65e9d882c8841f0ff",
+			"_tpl": "5963866b86f7747bfa1c4462"
+		},
+		{
+			"_id": "5c6687d65e9d882c8841f0fe",
+			"_tpl": "5963866286f7747bf429b572"
+		},
+		{
+			"_id": "TacticalVest402635",
+			"_tpl": "5648a69d4bdc2ded0b8b457b",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "TacticalVest"
+		},
+		{
+			"_id": "I21010265504522009TBuwbo",
+			"_tpl": "59e6687d86f77411d949b251",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "FirstPrimaryWeapon"
+		},
+		{
+			"_id": "I21010265751449918UvKVPv",
+			"_tpl": "59e649f986f77411d949b246",
+			"parentId": "I21010265504522009TBuwbo",
+			"slotId": "mod_gas_block"
+		},
+		{
+			"_id": "I21010266569582759FFh8kx",
+			"_tpl": "59e8a00d86f7742ad93b569c",
+			"parentId": "I21010265504522009TBuwbo",
+			"slotId": "mod_muzzle"
+		},
+		{
+			"_id": "I21010266584399884H3qGhu",
+			"_tpl": "59e6318286f77444dd62c4cc",
+			"parentId": "I21010265504522009TBuwbo",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "I21010264917213010iARlI7",
+			"_tpl": "59e6449086f7746c9f75e822",
+			"parentId": "I21010265504522009TBuwbo",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "I21010267665084947xlMqPY",
+			"_tpl": "59e8977386f77415a553c453",
+			"parentId": "I21010265504522009TBuwbo",
+			"slotId": "mod_sight_rear",
+			"upd": {
+				"Sight": {
+					"SelectedSightMode": 0
+				}
+			}
+		},
+		{
+			"_id": "I21010266295321850oWuRX2",
+			"_tpl": "59e898ee86f77427614bd225",
+			"parentId": "I21010265751449918UvKVPv",
+			"slotId": "mod_handguard"
+		},
+		{
+			"_id": "mag0Vest986777",
+			"_tpl": "59e5d83b86f7745aed03d262",
+			"parentId": "TacticalVest402635",
+			"slotId": "1",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "AmmoMag0Vest64657",
+			"_tpl": "59e6542b86f77411dc52a77a",
+			"parentId": "mag0Vest986777",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 10
+			}
+		},
+		{
+			"_id": "mag0Vest827195",
+			"_tpl": "59e5d83b86f7745aed03d262",
+			"parentId": "TacticalVest402635",
+			"slotId": "1",
+			"location": {
+				"x": 0,
+				"y": 1,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "AmmoMag0Vest925555",
+			"_tpl": "59e6658b86f77411d949b250",
+			"parentId": "mag0Vest827195",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 10
+			}
+		},
+		{
+			"_id": "mag1Vest525196",
+			"_tpl": "59e5d83b86f7745aed03d262",
+			"parentId": "TacticalVest402635",
+			"slotId": "3",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "AmmoMag1Vest430071",
+			"_tpl": "59e6658b86f77411d949b250",
+			"parentId": "mag1Vest525196",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 10
+			}
+		},
+		{
+			"_id": "mag2Vest108204",
+			"_tpl": "59e5d83b86f7745aed03d262",
+			"parentId": "TacticalVest402635",
+			"slotId": "10",
+			"location": {
+				"x": 0,
+				"y": 1,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "AmmoMag2Vest290895",
+			"_tpl": "59e655cb86f77411dc52a77b",
+			"parentId": "mag2Vest108204",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 10
+			}
+		},
+		{
+			"_id": "Scabbard68551",
+			"_tpl": "5bffdc370db834001d23eca8",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "Scabbard"
+		},
+		{
+			"_id": "Eyewear863757",
+			"_tpl": "5d6d2ef3a4b93618084f58bd",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "Eyewear"
+		},
+		{
+			"_id": "FaceCover329895",
+			"_tpl": "572b7fa524597762b747ce82",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "FaceCover"
+		},
+		{
+			"_id": "Backpack680612",
+			"_tpl": "56e33634d2720bd8058b456b",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "Backpack"
+		},
+		{
+			"_id": "BP_Backpack680612_248261",
+			"_tpl": "59faf98186f774067b6be103",
+			"parentId": "Backpack680612",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "BP_Backpack680612_121177",
+			"_tpl": "59e3556c86f7741776641ac2",
+			"parentId": "Backpack680612",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 0,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "BP_Backpack680612_668512",
+			"_tpl": "57347cd0245977445a2d6ff1",
+			"parentId": "Backpack680612",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 2,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "BP_Backpack680612_301683",
+			"_tpl": "5914578086f774123569ffa4",
+			"parentId": "Backpack680612",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 2,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "BP_Backpack680612_348251",
+			"_tpl": "5d1b31ce86f7742523398394",
+			"parentId": "Backpack680612",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 0,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "BP_Backpack680612_374243",
+			"_tpl": "590c5bbd86f774785762df04",
+			"parentId": "Backpack680612",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 1,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "BP_Backpack680612_101752",
+			"_tpl": "573477e124597737dd42e191",
+			"parentId": "Backpack680612",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 2,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "Pocket_564757",
+			"_tpl": "5e2aedd986f7746d404f3aa4",
+			"parentId": "5c6687d65e9d882c8841f121",
+			"slotId": "pocket1",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": "Horizontal"
+			},
+			"upd": {
+				"SpawnedInSession": true
+			}
+		}
+	],
+	"equipment": "5c6687d65e9d882c8841f0fd",
+	"stash": "5c6687d65e9d882c8841f0fc",
+	"questRaidItems": "5c6687d65e9d882c8841f0fe",
+	"questStashItems": "5c6687d65e9d882c8841f0ff",
+	"fastPanel": {}
+}

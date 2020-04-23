@@ -1,0 +1,227 @@
+{
+	"items": [
+		{
+			"_id": "5c6687d65e9d882c8841f0fd",
+			"_tpl": "55d7217a4bdc2d86028b456d"
+		},
+		{
+			"_id": "5c6687d65e9d882c8841f121",
+			"_tpl": "557ffd194bdc2d28148b457f",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "Pockets"
+		},
+		{
+			"_id": "5c6687d65e9d882c8841f0fc",
+			"_tpl": "566abbc34bdc2d92178b4576"
+		},
+		{
+			"_id": "5c6687d65e9d882c8841f0ff",
+			"_tpl": "5963866b86f7747bfa1c4462"
+		},
+		{
+			"_id": "5c6687d65e9d882c8841f0fe",
+			"_tpl": "5963866286f7747bf429b572"
+		},
+		{
+			"_id": "TacticalVest658455",
+			"_tpl": "5c0e9f2c86f77432297fe0a3",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "TacticalVest"
+		},
+		{
+			"_id": "I210826311354180717jPAT2",
+			"_tpl": "5dcbd56fdbd3d91b3e5468d5",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "FirstPrimaryWeapon"
+		},
+		{
+			"_id": "I210826317190032126ykJlS",
+			"_tpl": "5c48a2c22e221602b313fb6c",
+			"parentId": "I210826311354180717jPAT2",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "MagazineWeaponScav5413",
+			"_tpl": "5a3501acc4a282000d72293a",
+			"parentId": "I210826311354180717jPAT2",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "AmmoMag16901",
+			"_tpl": "58dd3ad986f77403051cba8f",
+			"parentId": "MagazineWeaponScav5413",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 20
+			}
+		},
+		{
+			"_id": "I210826318492334493Xwwzx",
+			"_tpl": "5c48a14f2e2216152006edd7",
+			"parentId": "I210826311354180717jPAT2",
+			"slotId": "mod_handguard"
+		},
+		{
+			"_id": "I210826317095907615f92vn",
+			"_tpl": "5dcbe9431e1f4616d354987e",
+			"parentId": "I210826311354180717jPAT2",
+			"slotId": "mod_barrel"
+		},
+		{
+			"_id": "I2108263185622026027ChK6",
+			"_tpl": "5c0a2cec0db834001b7ce47d",
+			"parentId": "I210826311354180717jPAT2",
+			"slotId": "mod_scope",
+			"upd": {
+				"Sight": {
+					"SelectedSightMode": 0
+				}
+			}
+		},
+		{
+			"_id": "I210826313078859930vjTR5",
+			"_tpl": "5b7be4895acfc400170e2dd5",
+			"parentId": "I210826318492334493Xwwzx",
+			"slotId": "mod_mount_000"
+		},
+		{
+			"_id": "I210826314084856814H5Y1c",
+			"_tpl": "5b7be47f5acfc400170e2dd2",
+			"parentId": "I210826318492334493Xwwzx",
+			"slotId": "mod_mount_001"
+		},
+		{
+			"_id": "I210826317990715846S2GHC",
+			"_tpl": "5a34fd2bc4a282329a73b4c5",
+			"parentId": "I210826317095907615f92vn",
+			"slotId": "mod_muzzle"
+		},
+		{
+			"_id": "I210826314120193688wXzrm",
+			"_tpl": "58c157be86f77403c74b2bb6",
+			"parentId": "I210826313078859930vjTR5",
+			"slotId": "mod_foregrip"
+		},
+		{
+			"_id": "I210826314017916946Bit2j",
+			"_tpl": "57fd23e32459772d0805bcf1",
+			"parentId": "I210826314084856814H5Y1c",
+			"slotId": "mod_tactical",
+			"upd": {
+				"Light": {
+					"IsActive": true,
+					"SelectedMode": 0
+				}
+			}
+		},
+		{
+			"_id": "I210826319461704806JtpS5",
+			"_tpl": "5a34fe59c4a282000b1521a2",
+			"parentId": "I210826317990715846S2GHC",
+			"slotId": "mod_muzzle"
+		},
+		{
+			"_id": "mag3Vest754504",
+			"_tpl": "5a3501acc4a282000d72293a",
+			"parentId": "TacticalVest658455",
+			"slotId": "4",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "AmmoMag3Vest222699",
+			"_tpl": "5a6086ea4f39f99cd479502f",
+			"parentId": "mag3Vest754504",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 20
+			}
+		},
+		{
+			"_id": "mag5Vest655771",
+			"_tpl": "5a3501acc4a282000d72293a",
+			"parentId": "TacticalVest658455",
+			"slotId": "7",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": "Horizontal"
+			}
+		},
+		{
+			"_id": "AmmoMag5Vest207124",
+			"_tpl": "5a608bf24f39f98ffc77720e",
+			"parentId": "mag5Vest655771",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 20
+			}
+		},
+		{
+			"_id": "Scabbard566314",
+			"_tpl": "54491bb74bdc2d09088b4567",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "Scabbard"
+		},
+		{
+			"_id": "FaceCover811108",
+			"_tpl": "5bd0716d86f774171822ef4b",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "FaceCover"
+		},
+		{
+			"_id": "Backpack286166",
+			"_tpl": "5b44c6ae86f7742d1627baea",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "Backpack"
+		},
+		{
+			"_id": "ArmorVest275814",
+			"_tpl": "5ab8e79e86f7742d8b372e78",
+			"parentId": "5c6687d65e9d882c8841f0fd",
+			"slotId": "ArmorVest",
+			"upd": {
+				"Repairable": {
+					"MaxDurability": 65,
+					"Durability": 30
+				}
+			}
+		},
+		{
+			"_id": "Pocket_225382",
+			"_tpl": "57347cd0245977445a2d6ff1",
+			"parentId": "5c6687d65e9d882c8841f121",
+			"slotId": "pocket1",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": "Horizontal"
+			},
+			"upd": {
+				"SpawnedInSession": true
+			}
+		},
+		{
+			"_id": "Pocket_569177",
+			"_tpl": "5a13ef0686f7746e5a411744",
+			"parentId": "5c6687d65e9d882c8841f121",
+			"slotId": "pocket2",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": "Horizontal"
+			},
+			"upd": {
+				"SpawnedInSession": true
+			}
+		}
+	],
+	"equipment": "5c6687d65e9d882c8841f0fd",
+	"stash": "5c6687d65e9d882c8841f0fc",
+	"questRaidItems": "5c6687d65e9d882c8841f0fe",
+	"questStashItems": "5c6687d65e9d882c8841f0ff",
+	"fastPanel": {}
+}

@@ -1,0 +1,107 @@
+{
+	"Id": "Lootable_00100",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5dd2955e86f774793f5f9418",
+	"Items": [
+		{
+			"_id": "5dd2955e86f774793f5f9418",
+			"_tpl": "5909d45286f77465a8136dc6"
+		},
+		{
+			"_id": "5dd2955e86f774793f5f9419",
+			"_tpl": "57372ebf2459776862260582",
+			"parentId": "5dd2955e86f774793f5f9418",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5dd2955e86f774793f5f941a",
+			"_tpl": "56dff3afd2720bba668b4567",
+			"parentId": "5dd2955e86f774793f5f9419",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 30
+			}
+		},
+		{
+			"_id": "5dd2955e86f774793f5f941b",
+			"_tpl": "5a608bf24f39f98ffc77720e",
+			"parentId": "5dd2955e86f774793f5f9418",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 0,
+				"r": 0
+			},
+			"upd": {
+				"StackObjectsCount": 8
+			}
+		},
+		{
+			"_id": "5dd2955e86f774793f5f941c",
+			"_tpl": "56dff216d2720bbd668b4568",
+			"parentId": "5dd2955e86f774793f5f9418",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 0,
+				"r": 0
+			},
+			"upd": {
+				"StackObjectsCount": 12
+			}
+		},
+		{
+			"_id": "5dd2955e86f774793f5f941d",
+			"_tpl": "560d5e524bdc2d25448b4571",
+			"parentId": "5dd2955e86f774793f5f9418",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 1,
+				"r": 0
+			},
+			"upd": {
+				"StackObjectsCount": 5
+			}
+		},
+		{
+			"_id": "5dd2955e86f774793f5f941e",
+			"_tpl": "5737250c2459776125652acc",
+			"parentId": "5dd2955e86f774793f5f9418",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 1,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5dd2955e86f774793f5f941f",
+			"_tpl": "573719df2459775a626ccbc2",
+			"parentId": "5dd2955e86f774793f5f941e",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 16
+			}
+		}
+	]
+}

@@ -1,0 +1,112 @@
+{
+	"Id": "Lootable_00185",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5e382a178e89a76b703a1e3b",
+	"Items": [
+		{
+			"_id": "5e382a178e89a76b703a1e3b",
+			"_tpl": "5d6d2bb386f774785b07a77a"
+		},
+		{
+			"_id": "5e382a178e89a76b703a1e3c",
+			"_tpl": "5448bd6b4bdc2dfc2f8b4569",
+			"parentId": "5e382a178e89a76b703a1e3b",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e382a178e89a76b703a1e3d",
+			"_tpl": "5448c12b4bdc2d02308b456f",
+			"parentId": "5e382a178e89a76b703a1e3c",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5e382a178e89a76b703a1e3e",
+			"_tpl": "573719762459775a626ccbc1",
+			"parentId": "5e382a178e89a76b703a1e3d",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 4
+			}
+		},
+		{
+			"_id": "5e382a178e89a76b703a1e3f",
+			"_tpl": "590c5d4b86f774784e1b9c45",
+			"parentId": "5e382a178e89a76b703a1e3b",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e382a178e89a76b703a1e40",
+			"_tpl": "57347c77245977448d35f6e2",
+			"parentId": "5e382a178e89a76b703a1e3b",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 1,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e382a178e89a76b703a1e41",
+			"_tpl": "590c35a486f774273531c822",
+			"parentId": "5e382a178e89a76b703a1e3b",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 1,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e382a178e89a76b703a1e42",
+			"_tpl": "560d5e524bdc2d25448b4571",
+			"parentId": "5e382a178e89a76b703a1e3b",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 2,
+				"r": 0
+			},
+			"upd": {
+				"StackObjectsCount": 7
+			}
+		},
+		{
+			"_id": "5e382a178e89a76b703a1e43",
+			"_tpl": "56dff3afd2720bba668b4567",
+			"parentId": "5e382a178e89a76b703a1e3b",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 2,
+				"r": 0
+			},
+			"upd": {
+				"StackObjectsCount": 15
+			}
+		}
+	]
+}

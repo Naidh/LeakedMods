@@ -1,0 +1,62 @@
+{
+	"Id": "Lootable_00267",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5e382a0f285547152560395c",
+	"Items": [
+		{
+			"_id": "5e382a0f285547152560395c",
+			"_tpl": "578f87a3245977356274f2cb"
+		},
+		{
+			"_id": "5e382a0f285547152560395d",
+			"_tpl": "5448bd6b4bdc2dfc2f8b4569",
+			"parentId": "5e382a0f285547152560395c",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e382a0f285547152560395e",
+			"_tpl": "5448c12b4bdc2d02308b456f",
+			"parentId": "5e382a0f285547152560395d",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5e382a0f285547152560395f",
+			"_tpl": "573719762459775a626ccbc1",
+			"parentId": "5e382a0f285547152560395e",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 6
+			}
+		},
+		{
+			"_id": "5e382a0f2855471525603960",
+			"_tpl": "56742c284bdc2d98058b456d",
+			"parentId": "5e382a0f285547152560395c",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 0,
+				"r": 0
+			}
+		}
+	]
+}

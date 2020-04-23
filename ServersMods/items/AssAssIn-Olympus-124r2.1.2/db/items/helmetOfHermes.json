@@ -1,0 +1,120 @@
+{
+	"_id": "helmetOfHermes",
+	"_name": "helmetOfHermes",
+	"_parent": "5a341c4086f77401f2541505",
+	"_type": "Item",
+	"_props": {
+		"Name": "Helmet of Hermes",
+		"ShortName": "Helmet of Hermes",
+		"Description": "The Helmet of Hermes protects your enitre head while also making you feel light on your feet!",
+		"Weight": 0.01, 
+		"BackgroundColor": "red",
+		"Width": 2,
+		"Height": 2,
+		"StackMaxSize": 1,
+		"Rarity": "Not_exist",
+		"SpawnChance": 1,
+		"CreditsPrice": 1250000,
+		"ItemSound": "gear_helmet",
+		"Prefab": {
+			"path": "assets/content/items/equipment/helmet_team_wendy_exfil/item_equipment_helmet_team_wendy_exfil_black.bundle",
+			"rcid": ""
+		},
+		"UsePrefab": {
+			"path": "",
+			"rcid": ""
+		},
+		"StackObjectsCount": 1,
+		"NotShownInSlot": false,
+		"ExaminedByDefault": true,
+		"ExamineTime": 1,
+		"IsUndiscardable": false,
+		"IsUnsaleable": false,
+		"IsUnbuyable": false,
+		"IsUngivable": false,
+		"IsLockedafterEquip": false,
+		"QuestItem": false,
+		"LootExperience": 20,
+		"ExamineExperience": 4,
+		"HideEntrails": false,
+		"RepairCost": 1000,
+		"RepairSpeed": 10,
+		"ExtraSizeLeft": 0,
+		"ExtraSizeRight": 0,
+		"ExtraSizeUp": 0,
+		"ExtraSizeDown": 0,
+		"ExtraSizeForceAdd": false,
+		"MergesWithChildren": true,
+		"CanSellOnRagfair": true,
+		"CanRequireOnRagfair": true,
+		"BannedFromRagfair": false,
+		"ConflictingItems": [],
+		"FixedPrice": false,
+		"Unlootable": false,
+		"UnlootableFromSlot": "FirstPrimaryWeapon",
+		"UnlootableFromSide": [],
+		"ChangePriceCoef": 1,
+		"AllowSpawnOnLocations": [],
+		"SendToClient": false,
+		"AnimationVariantsNumber": 0,
+		"DiscardingBlock": false,
+		"Grids": [],
+		"Slots": [
+			{
+				"_name": "mod_nvg",
+				"_id": "5a17e449fcdbcbcae6687268",
+				"_parent": "helmetOfHermes",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+								"5c0558060db834001b735271",
+								"5a16b8a9fcdbcb00165aa6ca"
+							]
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": false,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			}
+		],
+		"CanPutIntoDuringTheRaid": true,
+		"CantRemoveFromSlotsDuringRaid": [],
+		"BlocksEarpiece": false,
+		"BlocksEyewear": false,
+		"BlocksHeadwear": false,
+		"BlocksFaceCover": false,
+		"Durability": 9001,
+		"MaxDurability": 9001,
+		"armorClass": "10",
+		"speedPenaltyPercent": 75,
+		"mousePenalty": 75,
+		"weaponErgonomicPenalty": 75,
+		"armorZone": [
+			"Head"
+		],
+		"Indestructibility": 0.9,
+		"headSegments": [
+			"Ears",
+			"Eyes",
+			"Jaws",
+			"Nape",
+			"Top"
+		],
+		"FaceShieldComponent": false,
+		"FaceShieldMask": "NoMask",
+		"HasHinge": false,
+		"MaterialType": "Helmet",
+		"RicochetParams": {
+			"x": 25,
+			"y": 25,
+			"z": 70
+		},
+		"DeafStrength": "None",
+		"BluntThroughput": 0,
+		"ArmorMaterial": "Aramid"
+	},
+	"_proto": "5645bc214bdc2d363b8b4571"
+}

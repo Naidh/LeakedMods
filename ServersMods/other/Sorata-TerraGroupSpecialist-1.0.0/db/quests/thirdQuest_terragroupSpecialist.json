@@ -1,0 +1,147 @@
+{
+	"_id": "thirdQuest_terragroupSpecialist",
+	"traderId": "TerraGroup_Specialist",
+	"location": "Laboratory",
+	"image": "/files/quest/icon/thirdQuest_terragroupSpecialist.png",
+	"type": "PickUp",
+	"isKey": false,
+	"restartable": false,
+	"min_level": 0,
+	"canShowNotificationsInGame": true,
+	"rewards": {
+		"Started": [],
+		"Success": [
+			{
+				"value": "65000",
+				"id": "ExperienceID",
+				"type": "Experience",
+				"index": 0
+			},
+			{
+				"target": "TerraGroup_Specialist",
+				"value": "0.05",
+				"id": "thirdQuest_terragroupSpecialist_secondReward",
+				"type": "TraderStanding",
+				"index": 1
+			},
+			{
+				"target": "thirdQuest_terragroupSpecialist_thirdReward_id",
+				"value": "2000",
+				"id": "thirdQuest_terragroupSpecialist_thirdReward",
+				"type": "Item",
+				"index": 2,
+				"items": [
+					{
+						"_id": "thirdQuest_terragroupSpecialist_thirdReward_id",
+						"_tpl": "569668774bdc2da2298b4568",
+						"upd": {
+							"StackObjectsCount": 2000
+						}
+					}
+				]
+			}
+		],
+		"Fail": []
+	},
+	"conditions": {
+		"AvailableForStart": [
+			{
+				"_parent": "Level",
+				"_props": {
+					"compareMethod": ">=",
+					"value": "50",
+					"index": 0,
+					"parentId": "",
+					"id": "thirdQuest_terragroupSpecialist_levelRequir"
+				}
+			},
+			{
+				"_parent": "Quest",
+				"_props": {
+					"target": "secondQuest_terragroupSpecialist",
+					"status": 4,
+					"index": 1,
+					"parentId": "",
+					"id": ""
+				}
+			}
+		],
+		"AvailableForFinish": [
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"terragroupSpecialist_jammer"
+					],
+					"value": "16",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 0,
+					"parentId": "",
+					"id": "thirdQuest_terragroupSpecialist_FirstRequir1"
+				}
+			},
+			{
+				"_parent": "HandoverItem",
+				"_props": {
+					"target": [
+						"terragroupSpecialist_jammer"
+					],
+					"value": "16",
+					"index": 1,
+					"parentId": "",
+					"id": "thirdQuest_terragroupSpecialist_FirstRequir2",
+					"visibilityConditions": [
+						{
+							"_parent": "CompleteCondition",
+							"_props": {
+								"target": "thirdQuest_terragroupSpecialist_FirstRequir1",
+								"id": "thirdQuest_terragroupSpecialist_condition1"
+							}
+						}
+					],
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true
+				}
+			},
+			{
+				"_parent": "CounterCreator",
+				"_props": {
+					"value": "1",
+					"type": "Completion",
+					"counter": {
+						"id": "thirdQuest_terragroupSpecialist_counter",
+						"conditions": [
+							{
+								"_parent": "Location",
+								"_props": {
+									"target": [
+										"laboratory"
+									],
+									"id": "thirdQuest_terragroupSpecialist_location"
+								}
+							},
+							{
+								"_parent": "ExitStatus",
+								"_props": {
+									"status": [
+										"Survived"
+									],
+									"id": "thirdQuest_terragroupSpecialist_exitStatus"
+								}
+							}
+						]
+					},
+					"index": 2,
+					"parentId": "",
+					"id": "thirdQuest_terragroupSpecialist_FirstRequir3"
+				}
+			}
+		],
+		"Fail": []
+	}
+}

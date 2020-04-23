@@ -1,0 +1,188 @@
+{
+	"_id": "5aa2b923e5b5b000137b7589",
+	"_name": "glasses_Aoron",
+	"_parent": "5448e5724bdc2ddf718b4568",
+	"_type": "Item",
+	"_props": {
+		"Name": "glasses_Aoron",
+		"ShortName": "glasses_Aoron",
+		"Description": "glasses_Aoron",
+		"Weight": 0.1,
+		"BackgroundColor": "default",
+		"Width": 2,
+		"Height": 1,
+		"StackMaxSize": 1,
+		"Rarity": "Not_exist",
+		"SpawnChance": 50,
+		"CreditsPrice": 3084,
+		"ItemSound": "gear_goggles",
+		"Prefab": {
+			"path": "assets/content/items/equipment/glasses_round/item_equipment_glasses_round.bundle",
+			"rcid": ""
+		},
+		"UsePrefab": {
+			"path": "",
+			"rcid": ""
+		},
+		"StackObjectsCount": 1,
+		"NotShownInSlot": false,
+		"ExaminedByDefault": false,
+		"ExamineTime": 1,
+		"IsUndiscardable": false,
+		"IsUnsaleable": false,
+		"IsUnbuyable": false,
+		"IsUngivable": false,
+		"IsLockedafterEquip": false,
+		"QuestItem": false,
+		"LootExperience": 20,
+		"ExamineExperience": 4,
+		"HideEntrails": false,
+		"RepairCost": 867,
+		"RepairSpeed": 10,
+		"ExtraSizeLeft": 0,
+		"ExtraSizeRight": 0,
+		"ExtraSizeUp": 0,
+		"ExtraSizeDown": 0,
+		"ExtraSizeForceAdd": false,
+		"MergesWithChildren": true,
+		"CanSellOnRagfair": true,
+		"CanRequireOnRagfair": true,
+		"BannedFromRagfair": false,
+		"ConflictingItems": [],
+		"FixedPrice": false,
+		"Unlootable": false,
+		"UnlootableFromSlot": "FirstPrimaryWeapon",
+		"UnlootableFromSide": [],
+		"ChangePriceCoef": 1,
+		"AllowSpawnOnLocations": [],
+		"SendToClient": false,
+		"AnimationVariantsNumber": 0,
+		"Grids": [],
+		"Slots": [
+			{
+				"_name": "mod_equipment_000",
+				"_id": "5a17e402fcdbcb00165aa6d1",
+				"_parent": "5a154d5cfcdbcb001a3b00da",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+								"5a16badafcdbcb001865f72d",
+								"5a16b672fcdbcb001912fa83",
+								"5a16b7e1fcdbcb00165aa6c9"
+							]
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": true,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			},
+			{
+				"_name": "mod_nvg",
+				"_id": "5a17e449fcdbcbcae6687268",
+				"_parent": "5a154d5cfcdbcb001a3b00da",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+								"5c0558060db834001b735271",
+								"5a16b8a9fcdbcb00165aa6ca"
+							]
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": true,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			},
+			{
+				"_name": "mod_mount",
+				"_id": "5a17e484fcdbcb0017581848",
+				"_parent": "5a154d5cfcdbcb001a3b00da",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": []
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": true,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			},
+			{
+				"_name": "mod_equipment_001",
+				"_id": "5a214f4086f774545d34fe5c",
+				"_parent": "5a154d5cfcdbcb001a3b00da",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+								"5a16b9fffcdbcb0176308b34"
+							]
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": true,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			},
+			{
+				"_name": "mod_equipment_002",
+				"_id": "5c0e6a91d174af029e696b31",
+				"_parent": "5a154d5cfcdbcb001a3b00da",
+				"_props": {
+					"filters": [
+						{
+							"Shift": 0,
+							"Filter": [
+								"5c0e66e2d174af02a96252f4"
+							]
+						}
+					]
+				},
+				"_required": false,
+				"_mergeSlotWithChildren": true,
+				"_proto": "55d30c4c4bdc2db4468b457e"
+			}
+		],
+		"CanPutIntoDuringTheRaid": true,
+		"CantRemoveFromSlotsDuringRaid": [],
+		"BlocksEarpiece": false,
+		"BlocksEyewear": false,
+		"BlocksHeadwear": false,
+		"BlocksFaceCover": false,
+		"Durability": 0,
+		"MaxDurability": 0,
+		"armorClass": "0",
+		"speedPenaltyPercent": 0,
+		"mousePenalty": 0,
+		"weaponErgonomicPenalty": 0,
+		"armorZone": [
+			"Head"
+		],
+		"Indestructibility": 0.9,
+		"headSegments": [
+			"Top",
+			"Nape"
+		],
+		"FaceShieldComponent": false,
+		"FaceShieldMask": "NoMask",
+		"HasHinge": false,
+		"MaterialType": "Helmet",
+		"RicochetParams": {
+			"x": 0.9,
+			"y": 0.5,
+			"z": 70
+		},
+		"DeafStrength": "None",
+		"BluntThroughput": 0,
+		"ArmorMaterial": "Combined"
+	},
+	"_proto": "557ff21e4bdc2d89578b4586"
+}

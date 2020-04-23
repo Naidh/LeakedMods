@@ -1,0 +1,104 @@
+{
+	"Id": "Lootable_00286",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5d31e3ca645bb716d02dceec",
+	"Items": [
+		{
+			"_id": "5d31e3ca645bb716d02dceec",
+			"_tpl": "5909d76c86f77471e53d2adf"
+		},
+		{
+			"_id": "5d31e3ca645bb716d02dceed",
+			"_tpl": "5a0f096dfcdbcb0176308b15",
+			"parentId": "5d31e3ca645bb716d02dceec",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5d31e3ca645bb716d02dceee",
+			"_tpl": "587df583245977373c4f1129",
+			"parentId": "5d31e3ca645bb716d02dceec",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5d31e3ca645bb716d02dceef",
+			"_tpl": "59d6507c86f7741b846413a2",
+			"parentId": "5d31e3ca645bb716d02dceec",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5d31e3ca645bb716d02dcef0",
+			"_tpl": "5bfd297f0db834001a669119",
+			"parentId": "5d31e3ca645bb716d02dceec",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 2,
+				"r": 0
+			},
+			"upd": {
+				"FireMode": {
+					"FireMode": "single"
+				}
+			}
+		},
+		{
+			"_id": "5d31e3ca645bb716d02dcef1",
+			"_tpl": "5ae0973a5acfc4001562206c",
+			"parentId": "5d31e3ca645bb716d02dcef0",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5d31e3ca645bb716d02dcef2",
+			"_tpl": "5bfd35380db83400232fe5cc",
+			"parentId": "5d31e3ca645bb716d02dcef0",
+			"slotId": "mod_stock"
+		},
+		{
+			"_id": "5d31e3ca645bb716d02dcef3",
+			"_tpl": "5ae09bff5acfc4001562219d",
+			"parentId": "5d31e3ca645bb716d02dcef0",
+			"slotId": "mod_barrel"
+		},
+		{
+			"_id": "5d31e3ca645bb716d02dcef4",
+			"_tpl": "5ae099875acfc4001714e593",
+			"parentId": "5d31e3ca645bb716d02dcef3",
+			"slotId": "mod_sight_front"
+		},
+		{
+			"_id": "5d31e3ca645bb716d02dcef5",
+			"_tpl": "5ae099925acfc4001a5fc7b3",
+			"parentId": "5d31e3ca645bb716d02dcef3",
+			"slotId": "mod_sight_rear"
+		}
+	]
+}

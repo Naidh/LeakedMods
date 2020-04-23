@@ -1,0 +1,100 @@
+{
+	"Id": "Lootable_00353",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5e3829ebf470ac6fd82e6ed2",
+	"Items": [
+		{
+			"_id": "5e3829ebf470ac6fd82e6ed2",
+			"_tpl": "5d6d2bb386f774785b07a77a"
+		},
+		{
+			"_id": "5e3829ebf470ac6fd82e6ed3",
+			"_tpl": "5b1fa9b25acfc40018633c01",
+			"parentId": "5e3829ebf470ac6fd82e6ed2",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e3829ebf470ac6fd82e6ed4",
+			"_tpl": "5b1fa9ea5acfc40018633c0a",
+			"parentId": "5e3829ebf470ac6fd82e6ed3",
+			"slotId": "mod_barrel"
+		},
+		{
+			"_id": "5e3829ebf470ac6fd82e6ed5",
+			"_tpl": "5b1faa0f5acfc40dc528aeb5",
+			"parentId": "5e3829ebf470ac6fd82e6ed3",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "5e3829ebf470ac6fd82e6ed6",
+			"_tpl": "5a6f5d528dc32e00094b97d9",
+			"parentId": "5e3829ebf470ac6fd82e6ed5",
+			"slotId": "mod_sight_rear"
+		},
+		{
+			"_id": "5e3829ebf470ac6fd82e6ed7",
+			"_tpl": "5a6f58f68dc32e000a311390",
+			"parentId": "5e3829ebf470ac6fd82e6ed5",
+			"slotId": "mod_sight_front"
+		},
+		{
+			"_id": "5e3829ebf470ac6fd82e6ed8",
+			"_tpl": "5a718b548dc32e000d46d262",
+			"parentId": "5e3829ebf470ac6fd82e6ed3",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5e3829ebf470ac6fd82e6ed9",
+			"_tpl": "56d59d3ad2720bdb418b4577",
+			"parentId": "5e3829ebf470ac6fd82e6ed8",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 11
+			}
+		},
+		{
+			"_id": "5e3829ebf470ac6fd82e6eda",
+			"_tpl": "59e4d24686f7741776641ac7",
+			"parentId": "5e3829ebf470ac6fd82e6ed2",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 0,
+				"r": 0
+			},
+			"upd": {
+				"StackObjectsCount": 14
+			}
+		},
+		{
+			"_id": "5e3829ebf470ac6fd82e6edb",
+			"_tpl": "5d1b2fa286f77425227d1674",
+			"parentId": "5e3829ebf470ac6fd82e6ed2",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 1,
+				"r": 0
+			}
+		}
+	]
+}

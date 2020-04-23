@@ -1,0 +1,286 @@
+{
+	"name": "TerraGroupSpecialist",
+	"author": "Sorata",
+	"description": "Mod made by Sorata, EN translation made by Kiva#5854 thanks for his awesome work !",
+	"license": "MIT",
+	"version": "1.0.0",
+	"dependencies": [],
+	"src":{
+		"quest_f": "src/classes/quest.js",
+		"trader_f": "src/classes/trader.js"
+	},
+	"res":{
+		"quest":{
+			"firstQuest_terragroupSpecialist": "res/quest/firstQuest_terragroupSpecialist.png",
+			"secondQuest_terragroupSpecialist": "res/quest/secondQuest_terragroupSpecialist.png",
+			"thirdQuest_terragroupSpecialist": "res/quest/thirdQuest_terragroupSpecialist.png",
+			"fourthQuest_terragroupSpecialist": "res/quest/fourthQuest_terragroupSpecialist.png",
+			"fifthQuest_terragroupSpecialist": "res/quest/fifthQuest_terragroupSpecialist.png",
+			"sixthQuest_terragroupSpecialist": "res/quest/sixthQuest_terragroupSpecialist.jpg",
+			"seventhQuest_terragroupSpecialist": "res/quest/seventhQuest_terragroupSpecialist.png",
+			"eighthQuest_terragroupSpecialist": "res/quest/eighthQuest_terragroupSpecialist.jpg",
+			"ninthQuest_terragroupSpecialist": "res/quest/ninthQuest_terragroupSpecialist.png"
+		},
+		"trader":{
+			"TerraGroup_Specialist":"res/trader/TerraGroup_Specialist.jpg"
+		}
+	},
+	"db": {
+		"items": {
+			"terragroupSpecialist_manager_keycard": "db/items/terragroupSpecialist_manager_keycard.json",
+			"terragroupSpecialist_ssdDrive": "db/items/terragroupSpecialist_ssdDrive.json",
+			"terragroupSpecialist_jammer": "db/items/terragroupSpecialist_jammer.json",
+			"terragroupSpecialist_chemical": "db/items/terragroupSpecialist_chemical.json",
+			"terragroupSpecialist_chemical_meds": "db/items/terragroupSpecialist_chemical_meds.json",
+			"terragroupSpecialist_prototype_m4a1": "db/items/terragroupSpecialist_prototype_m4a1.json",
+			"terragroupSpecialist_genm3_fde": "db/items/terragroupSpecialist_genm3_fde.json",
+			"terragroupSpecialist_65x39mm_grendel": "db/items/terragroupSpecialist_65x39mm_grendel.json",
+			"terragroupSpecialist_65x39mm_grendel_prototype": "db/items/terragroupSpecialist_65x39mm_grendel_prototype.json",
+			"terragroupSpecialist_grendel_intelligence": "db/items/terragroupSpecialist_grendel_intelligence.json"
+		},
+		"assort": {
+			"TerraGroup_Specialist":{
+				"items":{
+					"terragroupSpecialist_prototype_m4a1":"db/assort/TerraGroup_Specialist/items/terragroupSpecialist_prototype_m4a1.json",
+					"terragroupSpecialist_chemical_meds":"db/assort/TerraGroup_Specialist/items/terragroupSpecialist_chemical_meds.json",
+					"terragroupSpecialist_genm3_fde":"db/assort/TerraGroup_Specialist/items/terragroupSpecialist_genm3_fde.json",
+					"euros":"db/assort/TerraGroup_Specialist/items/euros.json"
+				},
+				"loyal_level_items":{
+					"terragroupSpecialist_prototype_m4a1":"db/assort/TerraGroup_Specialist/loyal_level_items/terragroupSpecialist_prototype_m4a1.json",
+					"terragroupSpecialist_chemical_meds":"db/assort/TerraGroup_Specialist/loyal_level_items/terragroupSpecialist_chemical_meds.json",
+					"terragroupSpecialist_genm3_fde":"db/assort/TerraGroup_Specialist/loyal_level_items/terragroupSpecialist_genm3_fde.json",
+					"euros":"db/assort/TerraGroup_Specialist/loyal_level_items/euros.json"
+				},
+				"barter_scheme":{
+					"terragroupSpecialist_prototype_m4a1":"db/assort/TerraGroup_Specialist/barter_scheme/terragroupSpecialist_prototype_m4a1.json",
+					"terragroupSpecialist_chemical_meds":"db/assort/TerraGroup_Specialist/barter_scheme/terragroupSpecialist_chemical_meds.json",
+					"terragroupSpecialist_genm3_fde":"db/assort/TerraGroup_Specialist/barter_scheme/terragroupSpecialist_genm3_fde.json",
+					"euros":"db/assort/TerraGroup_Specialist/barter_scheme/euros.json"
+				},
+				"base":"db/assort/TerraGroup_Specialist/base.json",
+				"categories":"db/assort/TerraGroup_Specialist/categories.json"
+			}
+		},
+		"locales":{
+			"fr":{
+				"templates":{
+					"terragroupSpecialist_manager_keycard": "db/locales/fr/templates/terragroupSpecialist_manager_keycard.json",
+					"terragroupSpecialist_ssdDrive": "db/locales/fr/templates/terragroupSpecialist_ssdDrive.json",
+					"terragroupSpecialist_jammer": "db/locales/fr/templates/terragroupSpecialist_jammer.json",
+					"terragroupSpecialist_chemical": "db/locales/fr/templates/terragroupSpecialist_chemical.json",
+					"terragroupSpecialist_chemical_meds": "db/locales/fr/templates/terragroupSpecialist_chemical_meds.json",
+					"terragroupSpecialist_prototype_m4a1": "db/locales/fr/templates/terragroupSpecialist_prototype_m4a1.json",
+					"terragroupSpecialist_genm3_fde": "db/locales/fr/templates/terragroupSpecialist_genm3_fde.json",
+					"terragroupSpecialist_65x39mm_grendel": "db/locales/fr/templates/terragroupSpecialist_65x39mm_grendel.json",
+					"terragroupSpecialist_65x39mm_grendel_prototype": "db/locales/fr/templates/terragroupSpecialist_65x39mm_grendel_prototype.json",
+					"terragroupSpecialist_grendel_intelligence": "db/locales/fr/templates/terragroupSpecialist_grendel_intelligence.json"
+				},
+				"mail":{
+					"firstQuest_terragroupSpecialist_mail":"db/locales/fr/mail/firstQuest_terragroupSpecialist_mail.json",
+					"firstQuest_terragroupSpecialist_description":"db/locales/fr/mail/firstQuest_terragroupSpecialist_description.json",
+					"firstQuest_terragroupSpecialist_StartedMail":"db/locales/fr/mail/firstQuest_terragroupSpecialist_StartedMail.json",
+					"secondQuest_terragroupSpecialist_mail":"db/locales/fr/mail/secondQuest_terragroupSpecialist_mail.json",
+					"secondQuest_terragroupSpecialist_description":"db/locales/fr/mail/secondQuest_terragroupSpecialist_description.json",
+					"secondQuest_terragroupSpecialist_StartedMail":"db/locales/fr/mail/secondQuest_terragroupSpecialist_StartedMail.json",
+					"thirdQuest_terragroupSpecialist_mail":"db/locales/fr/mail/thirdQuest_terragroupSpecialist_mail.json",
+					"thirdQuest_terragroupSpecialist_description":"db/locales/fr/mail/thirdQuest_terragroupSpecialist_description.json",
+					"thirdQuest_terragroupSpecialist_StartedMail":"db/locales/fr/mail/thirdQuest_terragroupSpecialist_StartedMail.json",
+					"fourthQuest_terragroupSpecialist_mail":"db/locales/fr/mail/fourthQuest_terragroupSpecialist_mail.json",
+					"fourthQuest_terragroupSpecialist_description":"db/locales/fr/mail/fourthQuest_terragroupSpecialist_description.json",
+					"fourthQuest_terragroupSpecialist_StartedMail":"db/locales/fr/mail/fourthQuest_terragroupSpecialist_StartedMail.json",
+					"fifthQuest_terragroupSpecialist_mail":"db/locales/fr/mail/fifthQuest_terragroupSpecialist_mail.json",
+					"fifthQuest_terragroupSpecialist_description":"db/locales/fr/mail/fifthQuest_terragroupSpecialist_description.json",
+					"fifthQuest_terragroupSpecialist_StartedMail":"db/locales/fr/mail/fifthQuest_terragroupSpecialist_StartedMail.json",
+					"sixthQuest_terragroupSpecialist_mail":"db/locales/fr/mail/sixthQuest_terragroupSpecialist_mail.json",
+					"sixthQuest_terragroupSpecialist_description":"db/locales/fr/mail/sixthQuest_terragroupSpecialist_description.json",
+					"sixthQuest_terragroupSpecialist_StartedMail":"db/locales/fr/mail/sixthQuest_terragroupSpecialist_StartedMail.json",
+					"seventhQuest_terragroupSpecialist_mail":"db/locales/fr/mail/seventhQuest_terragroupSpecialist_mail.json",
+					"seventhQuest_terragroupSpecialist_description":"db/locales/fr/mail/seventhQuest_terragroupSpecialist_description.json",
+					"seventhQuest_terragroupSpecialist_StartedMail":"db/locales/fr/mail/seventhQuest_terragroupSpecialist_StartedMail.json",
+					"eighthQuest_terragroupSpecialist_mail":"db/locales/fr/mail/eighthQuest_terragroupSpecialist_mail.json",
+					"eighthQuest_terragroupSpecialist_description":"db/locales/fr/mail/eighthQuest_terragroupSpecialist_description.json",
+					"eighthQuest_terragroupSpecialist_StartedMail":"db/locales/fr/mail/eighthQuest_terragroupSpecialist_StartedMail.json",
+					"ninthQuest_terragroupSpecialist_mail":"db/locales/fr/mail/ninthQuest_terragroupSpecialist_mail.json",
+					"ninthQuest_terragroupSpecialist_description":"db/locales/fr/mail/ninthQuest_terragroupSpecialist_description.json",
+					"ninthQuest_terragroupSpecialist_StartedMail":"db/locales/fr/mail/ninthQuest_terragroupSpecialist_StartedMail.json"
+				},
+				"quest":{
+					"firstQuest_terragroupSpecialist":"db/locales/fr/quest/firstQuest_terragroupSpecialist.json",
+					"secondQuest_terragroupSpecialist":"db/locales/fr/quest/secondQuest_terragroupSpecialist.json",
+					"thirdQuest_terragroupSpecialist":"db/locales/fr/quest/thirdQuest_terragroupSpecialist.json",
+					"fourthQuest_terragroupSpecialist":"db/locales/fr/quest/fourthQuest_terragroupSpecialist.json",
+					"fifthQuest_terragroupSpecialist":"db/locales/fr/quest/fifthQuest_terragroupSpecialist.json",
+					"sixthQuest_terragroupSpecialist":"db/locales/fr/quest/sixthQuest_terragroupSpecialist.json",
+					"seventhQuest_terragroupSpecialist":"db/locales/fr/quest/seventhQuest_terragroupSpecialist.json",
+					"eighthQuest_terragroupSpecialist":"db/locales/fr/quest/eighthQuest_terragroupSpecialist.json",
+					"ninthQuest_terragroupSpecialist":"db/locales/fr/quest/ninthQuest_terragroupSpecialist.json"
+				},
+				"trading":{
+					"TerraGroup_Specialist":"db/locales/fr/trading/TerraGroup_Specialist.json"
+				}
+			},
+			"en":{
+				"templates":{
+					"terragroupSpecialist_manager_keycard": "db/locales/en/templates/terragroupSpecialist_manager_keycard.json",
+					"terragroupSpecialist_ssdDrive": "db/locales/en/templates/terragroupSpecialist_ssdDrive.json",
+					"terragroupSpecialist_jammer": "db/locales/en/templates/terragroupSpecialist_jammer.json",
+					"terragroupSpecialist_chemical": "db/locales/en/templates/terragroupSpecialist_chemical.json",
+					"terragroupSpecialist_chemical_meds": "db/locales/en/templates/terragroupSpecialist_chemical_meds.json",
+					"terragroupSpecialist_prototype_m4a1": "db/locales/en/templates/terragroupSpecialist_prototype_m4a1.json",
+					"terragroupSpecialist_genm3_fde": "db/locales/en/templates/terragroupSpecialist_genm3_fde.json",
+					"terragroupSpecialist_65x39mm_grendel": "db/locales/en/templates/terragroupSpecialist_65x39mm_grendel.json",
+					"terragroupSpecialist_65x39mm_grendel_prototype": "db/locales/en/templates/terragroupSpecialist_65x39mm_grendel_prototype.json",
+					"terragroupSpecialist_grendel_intelligence": "db/locales/en/templates/terragroupSpecialist_grendel_intelligence.json"
+				},
+				"mail":{
+					"firstQuest_terragroupSpecialist_mail":"db/locales/en/mail/firstQuest_terragroupSpecialist_mail.json",
+					"firstQuest_terragroupSpecialist_description":"db/locales/en/mail/firstQuest_terragroupSpecialist_description.json",
+					"firstQuest_terragroupSpecialist_StartedMail":"db/locales/en/mail/firstQuest_terragroupSpecialist_StartedMail.json",
+					"secondQuest_terragroupSpecialist_mail":"db/locales/en/mail/secondQuest_terragroupSpecialist_mail.json",
+					"secondQuest_terragroupSpecialist_description":"db/locales/en/mail/secondQuest_terragroupSpecialist_description.json",
+					"secondQuest_terragroupSpecialist_StartedMail":"db/locales/en/mail/secondQuest_terragroupSpecialist_StartedMail.json",
+					"thirdQuest_terragroupSpecialist_mail":"db/locales/en/mail/thirdQuest_terragroupSpecialist_mail.json",
+					"thirdQuest_terragroupSpecialist_description":"db/locales/en/mail/thirdQuest_terragroupSpecialist_description.json",
+					"thirdQuest_terragroupSpecialist_StartedMail":"db/locales/en/mail/thirdQuest_terragroupSpecialist_StartedMail.json",
+					"fourthQuest_terragroupSpecialist_mail":"db/locales/en/mail/fourthQuest_terragroupSpecialist_mail.json",
+					"fourthQuest_terragroupSpecialist_description":"db/locales/en/mail/fourthQuest_terragroupSpecialist_description.json",
+					"fourthQuest_terragroupSpecialist_StartedMail":"db/locales/en/mail/fourthQuest_terragroupSpecialist_StartedMail.json",
+					"fifthQuest_terragroupSpecialist_mail":"db/locales/en/mail/fifthQuest_terragroupSpecialist_mail.json",
+					"fifthQuest_terragroupSpecialist_description":"db/locales/en/mail/fifthQuest_terragroupSpecialist_description.json",
+					"fifthQuest_terragroupSpecialist_StartedMail":"db/locales/en/mail/fifthQuest_terragroupSpecialist_StartedMail.json",
+					"sixthQuest_terragroupSpecialist_mail":"db/locales/en/mail/sixthQuest_terragroupSpecialist_mail.json",
+					"sixthQuest_terragroupSpecialist_description":"db/locales/en/mail/sixthQuest_terragroupSpecialist_description.json",
+					"sixthQuest_terragroupSpecialist_StartedMail":"db/locales/en/mail/sixthQuest_terragroupSpecialist_StartedMail.json",
+					"seventhQuest_terragroupSpecialist_mail":"db/locales/en/mail/seventhQuest_terragroupSpecialist_mail.json",
+					"seventhQuest_terragroupSpecialist_description":"db/locales/en/mail/seventhQuest_terragroupSpecialist_description.json",
+					"seventhQuest_terragroupSpecialist_StartedMail":"db/locales/en/mail/seventhQuest_terragroupSpecialist_StartedMail.json",
+					"eighthQuest_terragroupSpecialist_mail":"db/locales/en/mail/eighthQuest_terragroupSpecialist_mail.json",
+					"eighthQuest_terragroupSpecialist_description":"db/locales/en/mail/eighthQuest_terragroupSpecialist_description.json",
+					"eighthQuest_terragroupSpecialist_StartedMail":"db/locales/en/mail/eighthQuest_terragroupSpecialist_StartedMail.json",
+					"ninthQuest_terragroupSpecialist_mail":"db/locales/en/mail/ninthQuest_terragroupSpecialist_mail.json",
+					"ninthQuest_terragroupSpecialist_description":"db/locales/en/mail/ninthQuest_terragroupSpecialist_description.json",
+					"ninthQuest_terragroupSpecialist_StartedMail":"db/locales/en/mail/ninthQuest_terragroupSpecialist_StartedMail.json"
+				},
+				"quest":{
+					"firstQuest_terragroupSpecialist":"db/locales/en/quest/firstQuest_terragroupSpecialist.json",
+					"secondQuest_terragroupSpecialist":"db/locales/en/quest/secondQuest_terragroupSpecialist.json",
+					"thirdQuest_terragroupSpecialist":"db/locales/en/quest/thirdQuest_terragroupSpecialist.json",
+					"fourthQuest_terragroupSpecialist":"db/locales/en/quest/fourthQuest_terragroupSpecialist.json",
+					"fifthQuest_terragroupSpecialist":"db/locales/en/quest/fifthQuest_terragroupSpecialist.json",
+					"sixthQuest_terragroupSpecialist":"db/locales/en/quest/sixthQuest_terragroupSpecialist.json",
+					"seventhQuest_terragroupSpecialist":"db/locales/en/quest/seventhQuest_terragroupSpecialist.json",
+					"eighthQuest_terragroupSpecialist":"db/locales/en/quest/eighthQuest_terragroupSpecialist.json",
+					"ninthQuest_terragroupSpecialist":"db/locales/en/quest/ninthQuest_terragroupSpecialist.json"
+				},
+				"trading":{
+					"TerraGroup_Specialist":"db/locales/en/trading/TerraGroup_Specialist.json"
+				}
+			}
+		},
+		"templates":{},
+		"quests":{
+			"firstQuest_terragroupSpecialist":"db/quests/firstQuest_terragroupSpecialist.json",
+			"secondQuest_terragroupSpecialist":"db/quests/secondQuest_terragroupSpecialist.json",
+			"thirdQuest_terragroupSpecialist":"db/quests/thirdQuest_terragroupSpecialist.json",
+			"fourthQuest_terragroupSpecialist":"db/quests/fourthQuest_terragroupSpecialist.json",
+			"fifthQuest_terragroupSpecialist":"db/quests/fifthQuest_terragroupSpecialist.json",
+			"sixthQuest_terragroupSpecialist":"db/quests/sixthQuest_terragroupSpecialist.json",
+			"seventhQuest_terragroupSpecialist":"db/quests/seventhQuest_terragroupSpecialist.json",
+			"eighthQuest_terragroupSpecialist":"db/quests/eighthQuest_terragroupSpecialist.json",
+			"ninthQuest_terragroupSpecialist":"db/quests/ninthQuest_terragroupSpecialist.json"
+		},
+		"locations":{
+			"laboratory":{
+				"loot":{
+					"dynamic":{
+						"crafting_intelligence1":{
+							"loot_1":"db/locations/laboratory/loot/dynamic/crafting_intelligence1/loot_1.json"
+						},
+						"crafting_intelligence2":{
+							"loot_1":"db/locations/laboratory/loot/dynamic/crafting_intelligence2/loot_1.json"
+						},
+						"crafting_intelligence3":{
+							"loot_1":"db/locations/laboratory/loot/dynamic/crafting_intelligence3/loot_1.json"
+						},
+						"crafting_intelligence4":{
+							"loot_1":"db/locations/laboratory/loot/dynamic/crafting_intelligence4/loot_1.json"
+						},
+						"crafting_intelligence5":{
+							"loot_1":"db/locations/laboratory/loot/dynamic/crafting_intelligence5/loot_1.json"
+						}
+					},
+					"forced":{
+						"prototype_grendel":{
+							"loot_1":"db/locations/laboratory/loot/forced/prototype_grendel/loot_1.json"
+						},
+						"jammer_1":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_1/loot_1.json"
+						},
+						"jammer_2":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_2/loot_1.json"
+						},
+						"jammer_3":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_3/loot_1.json"
+						},
+						"jammer_4":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_4/loot_1.json"
+						},
+						"jammer_5":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_5/loot_1.json"
+						},
+						"jammer_6":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_6/loot_1.json"
+						},
+						"jammer_7":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_7/loot_1.json"
+						},
+						"jammer_8":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_8/loot_1.json"
+						},
+						"jammer_9":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_9/loot_1.json"
+						},
+						"jammer_10":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_10/loot_1.json"
+						},
+						"jammer_11":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_11/loot_1.json"
+						},
+						"jammer_12":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_12/loot_1.json"
+						},
+						"jammer_13":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_13/loot_1.json"
+						},
+						"jammer_14":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_14/loot_1.json"
+						},
+						"jammer_15":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_15/loot_1.json"
+						},
+						"jammer_16":{
+							"loot_1":"db/locations/laboratory/loot/forced/jammer_16/loot_1.json"
+						},
+						"chemical_container":{
+							"loot_1":"db/locations/laboratory/loot/forced/chemical_container/loot_1.json"
+						}
+					}
+				}
+			}
+		},
+		"hideout":{
+			"production":{
+				"terragroupSpecialist_grendel_production":"db/hideout/production/terragroupSpecialist_grendel_production.json"
+			}
+		},
+		"bots":{
+			"bossgluhar":{
+				"inventory":{
+					"terragroupSpecialist_gluharLoadout":"db/bots/bossgluhar/inventory/terragroupSpecialist_gluharLoadout.json"
+				}
+			}
+		},
+		"globals":"db/globals.json"
+	}
+}

@@ -1,0 +1,2 @@
+This mod makes it so Prapor will buy all items from you (for the full value you'd get at the "correct" trader)
+This is only really intended to be used after selling enough to the other traders, thus I'm not making all traders buy all items.

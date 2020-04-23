@@ -1,0 +1,102 @@
+{
+	"Id": "Lootable_00354",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5e68b2a486f77406711e64f4",
+	"Items": [
+		{
+			"_id": "5e68b2a486f77406711e64f4",
+			"_tpl": "5d6d2bb386f774785b07a77a"
+		},
+		{
+			"_id": "5e68b2a486f77406711e64f5",
+			"_tpl": "57d14d2524597714373db789",
+			"parentId": "5e68b2a486f77406711e64f4",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e68b2a486f77406711e64f6",
+			"_tpl": "57d152ec245977144076ccdf",
+			"parentId": "5e68b2a486f77406711e64f5",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "5e68b2a486f77406711e64f7",
+			"_tpl": "57d1519e24597714373db79d",
+			"parentId": "5e68b2a486f77406711e64f5",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5e68b2a486f77406711e64f8",
+			"_tpl": "573719762459775a626ccbc1",
+			"parentId": "5e68b2a486f77406711e64f7",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 26
+			}
+		},
+		{
+			"_id": "5e68b2a486f77406711e64f9",
+			"_tpl": "57372e4a24597768553071c2",
+			"parentId": "5e68b2a486f77406711e64f4",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 2,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e68b2a486f77406711e64fa",
+			"_tpl": "56dff338d2720bbd668b4569",
+			"parentId": "5e68b2a486f77406711e64f9",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 30
+			}
+		},
+		{
+			"_id": "5e68b2a486f77406711e64fb",
+			"_tpl": "5e2aef7986f7746d3f3c33f5",
+			"parentId": "5e68b2a486f77406711e64f4",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 2,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e68b2a486f77406711e64fc",
+			"_tpl": "5a38ebd9c4a282000d722a5b",
+			"parentId": "5e68b2a486f77406711e64f4",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 2,
+				"r": 0
+			},
+			"upd": {
+				"StackObjectsCount": 9
+			}
+		}
+	]
+}

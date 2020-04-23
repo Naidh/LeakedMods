@@ -1,0 +1,23 @@
+{
+    "name": "GoodWeather",
+    "author": "Prospero",
+    "description": "Mod changed weather to be more sunny, but still foggy and rainy sometimes",
+    "license": "MIT",
+	"version": "1.0.0",
+	"dependencies": [],
+	"src":{},
+	"res":{},
+	"db": {
+		"weather": {
+			"fog": "db/weather/fog.json",
+			"heavyclouds": "db/weather/heavyclouds.json",
+			"heavyrain": "db/weather/heavyrain.json",
+			"lightclouds": "db/weather/lightclouds.json",
+			"lightrain": "db/weather/lightrain.json",
+			"storm": "db/weather/storm.json",
+			"sun": "db/weather/sun.json",
+			"thunder": "db/weather/thunder.json",
+			"wind": "db/weather/wind.json"	
+		}
+	}
+}

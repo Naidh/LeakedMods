@@ -1,0 +1,59 @@
+{
+	"Id": "Lootable_00028",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5d31e3e3645bb73572793d7f",
+	"Items": [
+		{
+			"_id": "5d31e3e3645bb73572793d7f",
+			"_tpl": "5909d76c86f77471e53d2adf"
+		},
+		{
+			"_id": "5d31e3e3645bb73572793d80",
+			"_tpl": "5c87ca002e221600114cb150",
+			"parentId": "5d31e3e3645bb73572793d7f",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5d31e3e3645bb73572793d81",
+			"_tpl": "576a581d2459771e7b1bc4f1",
+			"parentId": "5d31e3e3645bb73572793d7f",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5d31e3e3645bb73572793d82",
+			"_tpl": "576a5ed62459771e9c2096cb",
+			"parentId": "5d31e3e3645bb73572793d81",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5d31e3e3645bb73572793d83",
+			"_tpl": "576a63cd2459771e796e0e11",
+			"parentId": "5d31e3e3645bb73572793d81",
+			"slotId": "mod_pistol_grip"
+		}
+	]
+}

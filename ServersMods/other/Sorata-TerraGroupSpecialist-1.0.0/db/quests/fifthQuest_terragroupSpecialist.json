@@ -1,0 +1,329 @@
+{
+	"_id": "fifthQuest_terragroupSpecialist",
+	"traderId": "TerraGroup_Specialist",
+	"location": "Laboratory",
+	"image": "/files/quest/icon/fifthQuest_terragroupSpecialist.png",
+	"type": "PickUp",
+	"isKey": false,
+	"restartable": false,
+	"min_level": 0,
+	"canShowNotificationsInGame": true,
+	"rewards": {
+		"Started": [
+			{
+				"target": "fifthQuest_terragroupSpecialist_StartingGear_id",
+				"value": "3",
+				"id": "fifthQuest_terragroupSpecialist_StartingGear",
+				"type": "Item",
+				"index": 0,
+				"items": [
+					{
+						"_id": "fifthQuest_terragroupSpecialist_StartingGear_id",
+						"_tpl": "terragroupSpecialist_chemical_meds",
+						"upd": {
+							"StackObjectsCount": 1
+						}
+					},
+					{
+						"_id": "fifthQuest_terragroupSpecialist_StartingGear_id2",
+						"_tpl": "terragroupSpecialist_chemical_meds",
+						"upd": {
+							"StackObjectsCount": 1
+						}
+					},
+					{
+						"_id": "fifthQuest_terragroupSpecialist_StartingGear_id3",
+						"_tpl": "terragroupSpecialist_chemical_meds",
+						"upd": {
+							"StackObjectsCount": 1
+						}
+					}
+				]
+			}
+		],
+		"Success": [
+			{
+				"value": "75500",
+				"id": "ExperienceID",
+				"type": "Experience",
+				"index": 0
+			},
+			{
+				"target": "TerraGroup_Specialist",
+				"value": "0.1",
+				"id": "fifthQuest_terragroupSpecialist_secondReward",
+				"type": "TraderStanding",
+				"index": 1
+			},
+			{
+				"target": "fifthQuest_terragroupSpecialist_fifthReward_id",
+				"value": "1",
+				"id": "fifthQuest_terragroupSpecialist_fifthReward",
+				"type": "Item",
+				"index": 2,
+				"items": [
+					{
+						"_id": "fifthQuest_terragroupSpecialist_fifthReward_id",
+						"_tpl": "5c12613b86f7743bbe2c3f76",
+						"upd": {
+							"StackObjectsCount": 1
+						}
+					}
+				]
+			}
+		],
+		"Fail": []
+	},
+	"conditions": {
+		"AvailableForStart": [
+			{
+				"_parent": "Level",
+				"_props": {
+					"compareMethod": ">=",
+					"value": "54",
+					"index": 0,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_levelRequir"
+				}
+			},
+			{
+				"_parent": "Quest",
+				"_props": {
+					"target": "fourthQuest_terragroupSpecialist",
+					"status": 4,
+					"index": 1,
+					"parentId": "",
+					"id": ""
+				}
+			}
+		],
+		"AvailableForFinish": [
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"5a339805c4a2826c6e06d73d"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 0,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir1"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"5d1340b3d7ad1a0b52682ed7"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 1,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir2"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"55d355e64bdc2d962f8b4569"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 2,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir3"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"5649be884bdc2d79388b4577"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 3,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir4"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"55d44fd14bdc2d962f8b456e"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 4,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir5"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"558022b54bdc2dac148b458d"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 5,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir6"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"55d3632e4bdc2d972f8b4569"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 6,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir7"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"5c9a25172e2216000f20314e"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 7,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir8"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"5d135ecbd7ad1a21c176542e"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 8,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir9"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"5cf6937cd7f00c056c53fb39"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 9,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir10"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"56eabcd4d2720b66698b4574"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 10,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir11"
+				}
+			},
+			{
+				"_parent": "FindItem",
+				"_props": {
+					"target": [
+						"588226dd24597767ad33f789"
+					],
+					"value": "1",
+					"minDurability": 0,
+					"maxDurability": 0,
+					"dogtagLevel": 0,
+					"onlyFoundInRaid": true,
+					"index": 11,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir12"
+				}
+			},
+			{
+				"_parent": "CounterCreator",
+				"_props": {
+					"value": "1",
+					"type": "Completion",
+					"counter": {
+						"id": "fifthQuest_terragroupSpecialist_counter",
+						"conditions": [
+							{
+								"_parent": "Location",
+								"_props": {
+									"target": [
+										"laboratory"
+									],
+									"id": "fifthQuest_terragroupSpecialist_location"
+								}
+							},
+							{
+								"_parent": "ExitStatus",
+								"_props": {
+									"status": [
+										"Survived"
+									],
+									"id": "fifthQuest_terragroupSpecialist_exitStatus"
+								}
+							}
+						]
+					},
+					"index": 24,
+					"parentId": "",
+					"id": "fifthQuest_terragroupSpecialist_FirstRequir14"
+				}
+			}
+		],
+		"Fail": []
+	}
+}

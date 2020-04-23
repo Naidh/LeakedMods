@@ -1,0 +1,113 @@
+{
+	"_id": "aresP90",
+	"_name": "aresP90",
+	"_parent": "5448bc234bdc2d3c308b4569",
+	"_type": "Item",
+	"_props": {
+		"Name": "Ares Magazine for the P90",
+		"ShortName": "Ares Magazine P90",
+		"Description": "Ares' gifts never cease to amaze, even after 1000 rounds!",
+		"Weight": 0.01, 
+		"BackgroundColor": "red",
+		"Width": 2,
+		"Height": 1,
+		"StackMaxSize": 1,
+		"Rarity": "Not_exist",
+		"SpawnChance": 10,
+		"CreditsPrice": 250000,
+		"ItemSound": "magazine_metal",
+		"Prefab": {
+			"path": "assets/content/items/mods/magazines/mag_p90_fn_p90_std_57x28_50.bundle",
+			"rcid": ""
+		},
+		"UsePrefab": {
+			"path": "",
+			"rcid": ""
+		},
+		"StackObjectsCount": 1,
+		"NotShownInSlot": false,
+		"ExaminedByDefault": true,
+		"ExamineTime": 1,
+		"IsUndiscardable": false,
+		"IsUnsaleable": false,
+		"IsUnbuyable": false,
+		"IsUngivable": false,
+		"IsLockedafterEquip": false,
+		"QuestItem": false,
+		"LootExperience": 10,
+		"ExamineExperience": 2,
+		"HideEntrails": false,
+		"RepairCost": 0,
+		"RepairSpeed": 0,
+		"ExtraSizeLeft": 0,
+		"ExtraSizeRight": 0,
+		"ExtraSizeUp": 0,
+		"ExtraSizeDown": 0,
+		"ExtraSizeForceAdd": false,
+		"MergesWithChildren": true,
+		"CanSellOnRagfair": true,
+		"CanRequireOnRagfair": true,
+		"BannedFromRagfair": false,
+		"ConflictingItems": [],
+		"FixedPrice": false,
+		"Unlootable": false,
+		"UnlootableFromSlot": "FirstPrimaryWeapon",
+		"UnlootableFromSide": [],
+		"ChangePriceCoef": 1,
+		"AllowSpawnOnLocations": [],
+		"SendToClient": false,
+		"AnimationVariantsNumber": 0,
+		"DiscardingBlock": false,
+		"Grids": [],
+		"Slots": [],
+		"CanPutIntoDuringTheRaid": true,
+		"CantRemoveFromSlotsDuringRaid": [],
+		"Durability": 100,
+		"Accuracy": 100,
+		"Recoil": -100,
+		"Loudness": 0,
+		"EffectiveDistance": 0,
+		"Ergonomics": 100,
+		"Velocity": 0,
+		"RaidModdable": true,
+		"ToolModdable": false,
+		"BlocksFolding": false,
+		"BlocksCollapsible": false,
+		"IsAnimated": false,
+		"HasShoulderContact": false,
+		"SightingRange": 0,
+		"magAnimationIndex": 5,
+		"Cartridges": [
+			{
+				"_name": "cartridges",
+				"_id": "5cc70093e4a949033c734314",
+				"_parent": "aresP90",
+				"_max_count": 1000,
+				"_props": {
+					"filters": [
+						{
+							"Filter": [
+								"5cc80f53e4a949000e1ea4f8",
+								"5cc86832d7f00c000d3a6e6c",
+								"5cc86840d7f00c002412c56c",
+								"5cc80f67e4a949035e43bbba",
+								"5cc80f38e4a949001152b560",
+								"5cc80f8fe4a949033b0224a2",
+								"5cc80f79e4a949033c7343b2"
+							]
+						}
+					]
+				},
+				"_proto": "5748538b2459770af276a261"
+			}
+		],
+		"CanFast": true,
+		"CanHit": false,
+		"CanAdmin": false,
+		"LoadUnloadModifier": -100,
+		"CheckTimeModifier": -100,
+		"CheckOverride": 1,
+		"ReloadMagType": "ExternalMagazine",
+		"VisibleAmmoRangesString": "1-3"
+	}
+}

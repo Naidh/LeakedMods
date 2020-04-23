@@ -1,0 +1,66 @@
+{
+	"Id": "Lootable_00359",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5e68b2b686f774664942903a",
+	"Items": [
+		{
+			"_id": "5e68b2b686f774664942903a",
+			"_tpl": "5d6d2bb386f774785b07a77a"
+		},
+		{
+			"_id": "5e68b2b686f774664942903b",
+			"_tpl": "5755383e24597772cb798966",
+			"parentId": "5e68b2b686f774664942903a",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e68b2b686f774664942903c",
+			"_tpl": "5737292724597765e5728562",
+			"parentId": "5e68b2b686f774664942903a",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e68b2b686f774664942903d",
+			"_tpl": "56dfef82d2720bbd668b4567",
+			"parentId": "5e68b2b686f774664942903c",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 60
+			}
+		},
+		{
+			"_id": "5e68b2b686f774664942903e",
+			"_tpl": "56dfef82d2720bbd668b4567",
+			"parentId": "5e68b2b686f774664942903c",
+			"slotId": "cartridges",
+			"location": 1,
+			"upd": {
+				"StackObjectsCount": 60
+			}
+		}
+	]
+}

@@ -1,0 +1,99 @@
+{
+	"_id": "ninthQuest_terragroupSpecialist",
+	"traderId": "TerraGroup_Specialist",
+	"location": "Laboratory",
+	"image": "/files/quest/icon/ninthQuest_terragroupSpecialist.png",
+	"type": "Skill",
+	"isKey": false,
+	"restartable": false,
+	"min_level": 0,
+	"canShowNotificationsInGame": false,
+	"rewards": {
+		"Started": [
+			{
+				"target": "ninthQuest_terragroupSpecialist_StartingGear_id",
+				"value": "3",
+				"id": "ninthQuest_terragroupSpecialist_StartingGear",
+				"type": "Item",
+				"index": 0,
+				"items": [
+					{
+						"_id": "ninthQuest_terragroupSpecialist_StartingGear_id",
+						"_tpl": "terragroupSpecialist_genm3_fde"
+					},
+					{
+						"_id": "ninthQuest_terragroupSpecialist_StartingGear_id2",
+						"_tpl": "terragroupSpecialist_genm3_fde"
+					},
+					{
+						"_id": "ninthQuest_terragroupSpecialist_StartingGear_id3",
+						"_tpl": "terragroupSpecialist_genm3_fde"
+					}
+				]
+			}
+		],
+		"Success": [
+			{
+				"value": "45000",
+				"id": "ExperienceID",
+				"type": "Experience",
+				"index": 0
+			},
+			{
+				"target": "ninthQuest_terragroupSpecialist_Reward",
+				"value": "90",
+				"id": "ninthQuest_terragroupSpecialist_RewardGear",
+				"type": "Item",
+				"index": 1,
+				"items": [
+					{
+						"_id": "ninthQuest_terragroupSpecialist_Reward",
+						"_tpl": "terragroupSpecialist_65x39mm_grendel",
+						"upd":{
+							"StackObjectsCount": 90
+						}
+					}
+				]
+			}
+		],
+		"Fail": []
+	},
+	"conditions": {
+		"AvailableForStart": [
+			{
+				"_parent": "Level",
+				"_props": {
+					"compareMethod": ">=",
+					"value": "55",
+					"index": 0,
+					"parentId": "",
+					"id": "ninthQuest_terragroupSpecialist_levelRequir"
+				}
+			},
+			{
+				"_parent": "Quest",
+				"_props": {
+					"target": "eighthQuest_terragroupSpecialist",
+					"status": 4,
+					"index": 1,
+					"parentId": "",
+					"id": ""
+				}
+			}
+		],
+		"AvailableForFinish": [
+			{
+				"_parent": "Skill",
+				"_props": {
+					"target": "StressResistance",
+					"compareMethod": ">=",
+					"value": "30",
+					"index": 0,
+					"parentId": "",
+					"id": "ninthQuest_terragroupSpecialist_Condition"
+				}
+			}
+		],
+		"Fail": []
+	}
+}

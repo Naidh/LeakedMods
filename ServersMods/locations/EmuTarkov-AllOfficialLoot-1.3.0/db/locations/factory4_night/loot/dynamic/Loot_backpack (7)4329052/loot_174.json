@@ -1,0 +1,45 @@
+{
+	"Id": "Loot_backpack (7)4329052",
+	"IsStatic": false,
+	"useGravity": false,
+	"randomRotation": false,
+	"Position": {
+		"x": -10.9730225,
+		"y": 8.604,
+		"z": 33.4084778
+	},
+	"Rotation": {
+		"x": 284.2526,
+		"y": 0.000008515955,
+		"z": -0.00001094959
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5d31e3b2645bb70f94277980",
+	"Items": [
+		{
+			"_id": "5d31e3b2645bb70f94277980",
+			"_tpl": "544a5cde4bdc2d39388b456b"
+		},
+		{
+			"_id": "5d31e3b2645bb70f94277981",
+			"_tpl": "57372f5c24597769917c0131",
+			"parentId": "5d31e3b2645bb70f94277980",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5d31e3b2645bb70f94277982",
+			"_tpl": "56dff4a2d2720bbd668b456a",
+			"parentId": "5d31e3b2645bb70f94277981",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 30
+			}
+		}
+	]
+}

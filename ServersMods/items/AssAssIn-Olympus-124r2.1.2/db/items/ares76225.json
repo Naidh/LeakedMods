@@ -1,0 +1,113 @@
+{
+	"_id": "ares76225",
+	"_name": "ares76225",
+	"_parent": "5448bc234bdc2d3c308b4569",
+	"_type": "Item",
+	"_props": {
+		"Name": "ares76225",
+		"ShortName": "ares76225",
+		"Description": "ares76225",
+		"Weight": 0.01, 
+		"BackgroundColor": "red",
+		"Width": 1,
+		"Height": 1,
+		"StackMaxSize": 1,
+		"Rarity": "Not_exist",
+		"SpawnChance": 10,
+		"CreditsPrice": 250000,
+		"ItemSound": "magazine_metal",
+		"Prefab": {
+			"path": "assets/content/items/mods/magazines/mag_tt_toz_std_762x25tt_8.bundle",
+			"rcid": ""
+		},
+		"UsePrefab": {
+			"path": "",
+			"rcid": ""
+		},
+		"StackObjectsCount": 1,
+		"NotShownInSlot": false,
+		"ExaminedByDefault": true,
+		"ExamineTime": 1,
+		"IsUndiscardable": false,
+		"IsUnsaleable": false,
+		"IsUnbuyable": false,
+		"IsUngivable": false,
+		"IsLockedafterEquip": false,
+		"QuestItem": false,
+		"LootExperience": 10,
+		"ExamineExperience": 2,
+		"HideEntrails": false,
+		"RepairCost": 0,
+		"RepairSpeed": 0,
+		"ExtraSizeLeft": 0,
+		"ExtraSizeRight": 0,
+		"ExtraSizeUp": 0,
+		"ExtraSizeDown": 0,
+		"ExtraSizeForceAdd": false,
+		"MergesWithChildren": true,
+		"CanSellOnRagfair": true,
+		"CanRequireOnRagfair": true,
+		"BannedFromRagfair": false,
+		"ConflictingItems": [],
+		"FixedPrice": false,
+		"Unlootable": false,
+		"UnlootableFromSlot": "FirstPrimaryWeapon",
+		"UnlootableFromSide": [],
+		"ChangePriceCoef": 1,
+		"AllowSpawnOnLocations": [],
+		"SendToClient": false,
+		"AnimationVariantsNumber": 0,
+		"DiscardingBlock": false,
+		"Grids": [],
+		"Slots": [],
+		"CanPutIntoDuringTheRaid": true,
+		"CantRemoveFromSlotsDuringRaid": [],
+		"Durability": 100,
+		"Accuracy": 100,
+		"Recoil": -100,
+		"Loudness": 0,
+		"EffectiveDistance": 0,
+		"Ergonomics": 100,
+		"Velocity": 0,
+		"RaidModdable": true,
+		"ToolModdable": false,
+		"BlocksFolding": false,
+		"BlocksCollapsible": false,
+		"IsAnimated": false,
+		"HasShoulderContact": false,
+		"SightingRange": 0,
+		"magAnimationIndex": 5,
+		"Cartridges": [
+			{
+				"_name": "cartridges",
+				"_id": "5cc70093e4a949033c734314",
+				"_parent": "ares76225",
+				"_max_count": 1000,
+				"_props": {
+					"filters": [
+						{
+							"Filter": [
+								"5735ff5c245977640e39ba7e",
+								"573601b42459776410737435",
+								"573602322459776445391df1",
+								"5736026a245977644601dc61",
+								"573603562459776430731618",
+								"573603c924597764442bd9cb",
+								"5735fdcd2459776445391d61"
+							]
+						}
+					]
+				},
+				"_proto": "5748538b2459770af276a261"
+			}
+		],
+		"CanFast": true,
+		"CanHit": false,
+		"CanAdmin": false,
+		"LoadUnloadModifier": -100,
+		"CheckTimeModifier": -100,
+		"CheckOverride": 1,
+		"ReloadMagType": "ExternalMagazine",
+		"VisibleAmmoRangesString": "1-3"
+	}
+}

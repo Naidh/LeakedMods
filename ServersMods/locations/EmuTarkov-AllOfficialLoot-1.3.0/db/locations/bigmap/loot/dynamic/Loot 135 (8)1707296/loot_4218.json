@@ -1,0 +1,93 @@
+{
+	"Id": "Loot 135 (8)1707296",
+	"IsStatic": false,
+	"useGravity": true,
+	"randomRotation": true,
+	"Position": {
+		"x": 184.388,
+		"y": 6.351,
+		"z": 183.593
+	},
+	"Rotation": {
+		"x": 0.00000170754731,
+		"y": 134.652985,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5dd2955986f774793f5f9228",
+	"Items": [
+		{
+			"_id": "5dd2955986f774793f5f9228",
+			"_tpl": "5c07c60e0db834002330051f",
+			"upd": {
+				"FireMode": {
+					"FireMode": "single"
+				}
+			}
+		},
+		{
+			"_id": "5dd2955986f774793f5f9229",
+			"_tpl": "5c0e2ff6d174af02a1659d4a",
+			"parentId": "5dd2955986f774793f5f9228",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "5dd2955986f774793f5f922a",
+			"_tpl": "5aaa5e60e5b5b000140293d6",
+			"parentId": "5dd2955986f774793f5f9228",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5dd2955986f774793f5f9232",
+			"_tpl": "54527a984bdc2d4e668b4567",
+			"parentId": "5dd2955986f774793f5f922a",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 5
+			}
+		},
+		{
+			"_id": "5dd2955986f774793f5f922b",
+			"_tpl": "5c0e2f26d174af02a9625114",
+			"parentId": "5dd2955986f774793f5f9228",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "5dd2955986f774793f5f922c",
+			"_tpl": "5c0e2f94d174af029f650d56",
+			"parentId": "5dd2955986f774793f5f922b",
+			"slotId": "mod_barrel"
+		},
+		{
+			"_id": "5dd2955986f774793f5f922d",
+			"_tpl": "5c0fafb6d174af02a96260ba",
+			"parentId": "5dd2955986f774793f5f922c",
+			"slotId": "mod_muzzle"
+		},
+		{
+			"_id": "5dd2955986f774793f5f922e",
+			"_tpl": "5ae30e795acfc408fb139a0b",
+			"parentId": "5dd2955986f774793f5f922c",
+			"slotId": "mod_gas_block"
+		},
+		{
+			"_id": "5dd2955986f774793f5f922f",
+			"_tpl": "5c0e2f5cd174af02a012cfc9",
+			"parentId": "5dd2955986f774793f5f922b",
+			"slotId": "mod_handguard"
+		},
+		{
+			"_id": "5dd2955986f774793f5f9230",
+			"_tpl": "5649be884bdc2d79388b4577",
+			"parentId": "5dd2955986f774793f5f9228",
+			"slotId": "mod_stock"
+		},
+		{
+			"_id": "5dd2955986f774793f5f9231",
+			"_tpl": "5c0faf68d174af02a96260b8",
+			"parentId": "5dd2955986f774793f5f9228",
+			"slotId": "mod_charge"
+		}
+	]
+}

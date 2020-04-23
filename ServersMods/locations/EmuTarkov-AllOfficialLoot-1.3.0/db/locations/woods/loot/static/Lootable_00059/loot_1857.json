@@ -1,0 +1,48 @@
+{
+	"Id": "Lootable_00059",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5d31e3e0645bb73be0058033",
+	"Items": [
+		{
+			"_id": "5d31e3e0645bb73be0058033",
+			"_tpl": "578f87ad245977356274f2cc"
+		},
+		{
+			"_id": "5d31e3e0645bb73be0058034",
+			"_tpl": "576a581d2459771e7b1bc4f1",
+			"parentId": "5d31e3e0645bb73be0058033",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5d31e3e0645bb73be0058035",
+			"_tpl": "576a5ed62459771e9c2096cb",
+			"parentId": "5d31e3e0645bb73be0058034",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5d31e3e0645bb73be0058036",
+			"_tpl": "576a63cd2459771e796e0e11",
+			"parentId": "5d31e3e0645bb73be0058034",
+			"slotId": "mod_pistol_grip"
+		}
+	]
+}

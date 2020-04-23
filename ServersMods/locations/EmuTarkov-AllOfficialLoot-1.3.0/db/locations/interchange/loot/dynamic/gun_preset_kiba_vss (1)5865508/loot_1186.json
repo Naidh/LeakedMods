@@ -1,0 +1,64 @@
+{
+	"Id": "gun_preset_kiba_vss (1)5865508",
+	"IsStatic": false,
+	"useGravity": false,
+	"randomRotation": false,
+	"Position": {
+		"x": -23.5134354,
+		"y": 29.0168114,
+		"z": -33.4867249
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5db5d02ecd1e3d3a94507299",
+	"Items": [
+		{
+			"_id": "5db5d02ecd1e3d3a94507299",
+			"_tpl": "57838ad32459774a17445cd2"
+		},
+		{
+			"_id": "5db5d02ecd1e3d3a9450729a",
+			"_tpl": "57838f0b2459774a256959b2",
+			"parentId": "5db5d02ecd1e3d3a94507299",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5db5d02ecd1e3d3a9450729f",
+			"_tpl": "57a0dfb82459774d3078b56c",
+			"parentId": "5db5d02ecd1e3d3a9450729a",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 5
+			}
+		},
+		{
+			"_id": "5db5d02ecd1e3d3a9450729b",
+			"_tpl": "57838c962459774a1651ec63",
+			"parentId": "5db5d02ecd1e3d3a94507299",
+			"slotId": "mod_muzzle"
+		},
+		{
+			"_id": "5db5d02ecd1e3d3a9450729c",
+			"_tpl": "57838e1b2459774a256959b1",
+			"parentId": "5db5d02ecd1e3d3a9450729b",
+			"slotId": "mod_sight_rear"
+		},
+		{
+			"_id": "5db5d02ecd1e3d3a9450729d",
+			"_tpl": "578395402459774a256959b5",
+			"parentId": "5db5d02ecd1e3d3a94507299",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "5db5d02ecd1e3d3a9450729e",
+			"_tpl": "578395e82459774a0e553c7b",
+			"parentId": "5db5d02ecd1e3d3a94507299",
+			"slotId": "mod_stock"
+		}
+	]
+}

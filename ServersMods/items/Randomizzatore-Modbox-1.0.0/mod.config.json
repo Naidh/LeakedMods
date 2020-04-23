@@ -1,0 +1,47 @@
+{
+  "name": "Modbox",
+  "author": "Randomizzatore",
+  "license": "MIT",
+  "version": "1.0.0",
+  "db": {
+    "items": {
+      "modbox": "db/items/modbox.json"
+    },
+    "assort": {
+      "5a7c2eca46aef81a7ca2145d": {
+        "barter_scheme": {
+          "modbox_trade": "db/assort/5a7c2eca46aef81a7ca2145d/barter_scheme/modbox_trade.json"
+        },
+        "items": {
+          "modbox_trade": "db/assort/5a7c2eca46aef81a7ca2145d/items/modbox_trade.json"
+        },
+        "loyal_level_items": {
+          "modbox_trade": "db/assort/5a7c2eca46aef81a7ca2145d/loyal_level_items/modbox_trade.json"
+        }
+      },
+      "ragfair": {
+        "barter_scheme": {
+          "modbox": "db/assort/ragfair/barter_scheme/modbox.json"
+        },
+        "items": {
+          "modbox": "db/assort/ragfair/items/modbox.json"
+        },
+        "loyal_level_items": {
+          "modbox": "db/assort/ragfair/loyal_level_items/modbox.json"
+        }
+      }
+    },
+    "locales": {
+      "en": {
+        "templates": {
+          "modbox": "db/locales/en/templates/modbox.json"
+        }
+      }
+    },
+    "templates": {
+      "items": {
+        "modbox": "db/templates/items/modbox.json"
+      }
+    }
+  }
+}

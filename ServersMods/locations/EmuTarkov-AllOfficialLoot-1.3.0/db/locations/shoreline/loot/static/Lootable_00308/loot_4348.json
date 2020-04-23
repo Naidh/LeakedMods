@@ -1,0 +1,95 @@
+{
+	"Id": "Lootable_00308",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5e0675b596074431445d4278",
+	"Items": [
+		{
+			"_id": "5e0675b596074431445d4278",
+			"_tpl": "5909d76c86f77471e53d2adf"
+		},
+		{
+			"_id": "5e0675b596074431445d4279",
+			"_tpl": "5de7bd7bfd6b4e6e2276dc25",
+			"parentId": "5e0675b596074431445d4278",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			},
+			"upd": {
+				"Foldable": {
+					"Folded": false
+				},
+				"FireMode": {
+					"FireMode": "single"
+				}
+			}
+		},
+		{
+			"_id": "5e0675b596074431445d427a",
+			"_tpl": "5de8eac42a78646d96665d91",
+			"parentId": "5e0675b596074431445d4279",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5e0675b596074431445d4281",
+			"_tpl": "58864a4f2459770fcc257101",
+			"parentId": "5e0675b596074431445d427a",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 22
+			}
+		},
+		{
+			"_id": "5e0675b596074431445d427b",
+			"_tpl": "5de910da8b6c4240ba2651b5",
+			"parentId": "5e0675b596074431445d4279",
+			"slotId": "mod_stock"
+		},
+		{
+			"_id": "5e0675b596074431445d427c",
+			"_tpl": "5de8fbad2fbe23140d3ee9c4",
+			"parentId": "5e0675b596074431445d4279",
+			"slotId": "mod_foregrip"
+		},
+		{
+			"_id": "5e0675b596074431445d427d",
+			"_tpl": "5de8e67c4a9f347bc92edbd7",
+			"parentId": "5e0675b596074431445d4279",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "5e0675b596074431445d427e",
+			"_tpl": "5de8fb539f98ac2bc659513a",
+			"parentId": "5e0675b596074431445d427d",
+			"slotId": "mod_sight_rear"
+		},
+		{
+			"_id": "5e0675b596074431445d427f",
+			"_tpl": "5de8fc0b205ddc616a6bc51b",
+			"parentId": "5e0675b596074431445d427d",
+			"slotId": "mod_mount"
+		},
+		{
+			"_id": "5e0675b596074431445d4280",
+			"_tpl": "5de922d4b11454561e39239f",
+			"parentId": "5e0675b596074431445d4279",
+			"slotId": "mod_charge"
+		}
+	]
+}

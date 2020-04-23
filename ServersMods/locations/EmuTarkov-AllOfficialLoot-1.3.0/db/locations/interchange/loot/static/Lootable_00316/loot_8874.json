@@ -1,0 +1,112 @@
+{
+	"Id": "Lootable_00316",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5e0675d90b8cde1bad72251a",
+	"Items": [
+		{
+			"_id": "5e0675d90b8cde1bad72251a",
+			"_tpl": "5909d7cf86f77470ee57d75a"
+		},
+		{
+			"_id": "5e0675da0b8cde1bad72251b",
+			"_tpl": "57ae0171245977343c27bfcf",
+			"parentId": "5e0675d90b8cde1bad72251a",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5e0675da0b8cde1bad72251c",
+			"_tpl": "57dc2fa62459775949412633",
+			"parentId": "5e0675d90b8cde1bad72251a",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 0,
+				"r": 1
+			}
+		},
+		{
+			"_id": "5e0675da0b8cde1bad72251d",
+			"_tpl": "57e3dba62459770f0c32322b",
+			"parentId": "5e0675da0b8cde1bad72251c",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "5e0675da0b8cde1bad72251e",
+			"_tpl": "57dc347d245977596754e7a1",
+			"parentId": "5e0675da0b8cde1bad72251c",
+			"slotId": "mod_stock"
+		},
+		{
+			"_id": "5e0675da0b8cde1bad72251f",
+			"_tpl": "564ca99c4bdc2d16268b4589",
+			"parentId": "5e0675da0b8cde1bad72251c",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5e0675da0b8cde1bad722523",
+			"_tpl": "56dfef82d2720bbd668b4567",
+			"parentId": "5e0675da0b8cde1bad72251f",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 30
+			}
+		},
+		{
+			"_id": "5e0675da0b8cde1bad722520",
+			"_tpl": "57dc324a24597759501edc20",
+			"parentId": "5e0675da0b8cde1bad72251c",
+			"slotId": "mod_muzzle"
+		},
+		{
+			"_id": "5e0675da0b8cde1bad722521",
+			"_tpl": "57dc334d245977597164366f",
+			"parentId": "5e0675da0b8cde1bad72251c",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "5e0675da0b8cde1bad722522",
+			"_tpl": "59d36a0086f7747e673f3946",
+			"parentId": "5e0675da0b8cde1bad72251c",
+			"slotId": "mod_gas_block"
+		},
+		{
+			"_id": "5e0675da0b8cde1bad722524",
+			"_tpl": "57dc32dc245977596d4ef3d3",
+			"parentId": "5e0675da0b8cde1bad722522",
+			"slotId": "mod_handguard"
+		},
+		{
+			"_id": "5e0675da0b8cde1bad722525",
+			"_tpl": "5ba26835d4351e0035628ff5",
+			"parentId": "5e0675d90b8cde1bad72251a",
+			"slotId": "main",
+			"location": {
+				"x": 3,
+				"y": 0,
+				"r": 0
+			},
+			"upd": {
+				"StackObjectsCount": 44
+			}
+		}
+	]
+}

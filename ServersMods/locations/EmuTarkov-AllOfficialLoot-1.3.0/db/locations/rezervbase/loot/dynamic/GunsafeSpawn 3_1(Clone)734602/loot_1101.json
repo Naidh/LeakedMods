@@ -1,0 +1,69 @@
+{
+	"Id": "GunsafeSpawn 3_1(Clone)734602",
+	"IsStatic": false,
+	"useGravity": false,
+	"randomRotation": false,
+	"Position": {
+		"x": -41.5462036,
+		"y": 18.6250935,
+		"z": 174.130432
+	},
+	"Rotation": {
+		"x": 270,
+		"y": 182.101074,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5dd2961386f7740728172ae6",
+	"Items": [
+		{
+			"_id": "5dd2961386f7740728172ae6",
+			"_tpl": "5bfd297f0db834001a669119",
+			"upd": {
+				"FireMode": {
+					"FireMode": "single"
+				}
+			}
+		},
+		{
+			"_id": "5dd2961386f7740728172ae7",
+			"_tpl": "5ae0973a5acfc4001562206c",
+			"parentId": "5dd2961386f7740728172ae6",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5dd2961386f7740728172aec",
+			"_tpl": "5887431f2459777e1612938f",
+			"parentId": "5dd2961386f7740728172ae7",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 4
+			}
+		},
+		{
+			"_id": "5dd2961386f7740728172ae8",
+			"_tpl": "5bfd35380db83400232fe5cc",
+			"parentId": "5dd2961386f7740728172ae6",
+			"slotId": "mod_stock"
+		},
+		{
+			"_id": "5dd2961386f7740728172ae9",
+			"_tpl": "5ae09bff5acfc4001562219d",
+			"parentId": "5dd2961386f7740728172ae6",
+			"slotId": "mod_barrel"
+		},
+		{
+			"_id": "5dd2961386f7740728172aea",
+			"_tpl": "5ae099875acfc4001714e593",
+			"parentId": "5dd2961386f7740728172ae9",
+			"slotId": "mod_sight_front"
+		},
+		{
+			"_id": "5dd2961386f7740728172aeb",
+			"_tpl": "5ae099925acfc4001a5fc7b3",
+			"parentId": "5dd2961386f7740728172ae9",
+			"slotId": "mod_sight_rear"
+		}
+	]
+}

@@ -1,0 +1,119 @@
+{
+	"Id": "Lootable_00526",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5db5d041533aa77c477a5c41",
+	"Items": [
+		{
+			"_id": "5db5d041533aa77c477a5c41",
+			"_tpl": "5909d7cf86f77470ee57d75a"
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c42",
+			"_tpl": "5d2f0d8048f0356c925bc3b0",
+			"parentId": "5db5d041533aa77c477a5c41",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			},
+			"upd": {
+				"FireMode": {
+					"FireMode": "single"
+				}
+			}
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c43",
+			"_tpl": "5d2f213448f0355009199284",
+			"parentId": "5db5d041533aa77c477a5c42",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c49",
+			"_tpl": "58864a4f2459770fcc257101",
+			"parentId": "5db5d041533aa77c477a5c43",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 18
+			}
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c44",
+			"_tpl": "5d2f261548f03576f500e7b7",
+			"parentId": "5db5d041533aa77c477a5c42",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c45",
+			"_tpl": "5d2f259b48f0355a844acd74",
+			"parentId": "5db5d041533aa77c477a5c44",
+			"slotId": "mod_handguard"
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c46",
+			"_tpl": "5926d2be86f774134d668e4e",
+			"parentId": "5db5d041533aa77c477a5c44",
+			"slotId": "mod_sight_rear"
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c47",
+			"_tpl": "5d2f25bc48f03502573e5d85",
+			"parentId": "5db5d041533aa77c477a5c44",
+			"slotId": "mod_stock"
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c48",
+			"_tpl": "5d2f2d5748f03572ec0c0139",
+			"parentId": "5db5d041533aa77c477a5c42",
+			"slotId": "mod_charge"
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c4a",
+			"_tpl": "57ee59b42459771c7b045da5",
+			"parentId": "5db5d041533aa77c477a5c41",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c4b",
+			"_tpl": "56def37dd2720bec348b456a",
+			"parentId": "5db5d041533aa77c477a5c41",
+			"slotId": "main",
+			"location": {
+				"x": 3,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5db5d041533aa77c477a5c4c",
+			"_tpl": "5649b1c04bdc2d16268b457c",
+			"parentId": "5db5d041533aa77c477a5c41",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 1,
+				"r": 0
+			}
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"Id": "Lootable_00031",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5d31e3d0645bb711854bd2ff",
+	"Items": [
+		{
+			"_id": "5d31e3d0645bb711854bd2ff",
+			"_tpl": "578f87ad245977356274f2cc"
+		},
+		{
+			"_id": "5d31e3d0645bb711854bd300",
+			"_tpl": "576a7c512459771e796e0e17",
+			"parentId": "5d31e3d0645bb711854bd2ff",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5d31e3d0645bb711854bd301",
+			"_tpl": "57d14d2524597714373db789",
+			"parentId": "5d31e3d0645bb711854bd2ff",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5d31e3d0645bb711854bd302",
+			"_tpl": "57d152ec245977144076ccdf",
+			"parentId": "5d31e3d0645bb711854bd301",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "5d31e3d0645bb711854bd303",
+			"_tpl": "57d1519e24597714373db79d",
+			"parentId": "5d31e3d0645bb711854bd301",
+			"slotId": "mod_magazine"
+		}
+	]
+}

@@ -1,0 +1,116 @@
+{
+	"Id": "Lootable_00196",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5dd2955586f774793c573506",
+	"Items": [
+		{
+			"_id": "5dd2955586f774793c573506",
+			"_tpl": "5d6d2bb386f774785b07a77a"
+		},
+		{
+			"_id": "5dd2955586f774793c573507",
+			"_tpl": "5739d41224597779c3645501",
+			"parentId": "5dd2955586f774793c573506",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5dd2955586f774793c573508",
+			"_tpl": "56d59d3ad2720bdb418b4577",
+			"parentId": "5dd2955586f774793c573507",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 16
+			}
+		},
+		{
+			"_id": "5dd2955586f774793c573509",
+			"_tpl": "571a12c42459771f627b58a0",
+			"parentId": "5dd2955586f774793c573506",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5dd2955586f774793c57350a",
+			"_tpl": "571a26d524597720680fbe8a",
+			"parentId": "5dd2955586f774793c573509",
+			"slotId": "mod_barrel"
+		},
+		{
+			"_id": "5dd2955586f774793c57350b",
+			"_tpl": "571a282c2459771fb2755a69",
+			"parentId": "5dd2955586f774793c573509",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "5dd2955586f774793c57350c",
+			"_tpl": "571a29dc2459771fb2755a6a",
+			"parentId": "5dd2955586f774793c573509",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5dd2955586f774793c57350d",
+			"_tpl": "5736026a245977644601dc61",
+			"parentId": "5dd2955586f774793c57350c",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 6
+			}
+		},
+		{
+			"_id": "5dd2955586f774793c57350e",
+			"_tpl": "5c06782b86f77426df5407d2",
+			"parentId": "5dd2955586f774793c573506",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 1,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5dd2955586f774793c57350f",
+			"_tpl": "590c2b4386f77425357b6123",
+			"parentId": "5dd2955586f774793c573506",
+			"slotId": "main",
+			"location": {
+				"x": 1,
+				"y": 1,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5dd2955586f774793c573510",
+			"_tpl": "59e3577886f774176a362503",
+			"parentId": "5dd2955586f774793c573506",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 1,
+				"r": 0
+			}
+		}
+	]
+}

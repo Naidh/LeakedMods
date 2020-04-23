@@ -1,0 +1,40 @@
+{
+	"Id": "loot_weap_church [0]4376218",
+	"IsStatic": false,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 251.319824,
+		"y": -53.0188,
+		"z": -106.08429
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 93.90962,
+		"z": 0.000005186496
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5db5d066f113b904523ad723",
+	"Items": [
+		{
+			"_id": "5db5d066f113b904523ad723",
+			"_tpl": "5448bd6b4bdc2dfc2f8b4569"
+		},
+		{
+			"_id": "5db5d066f113b904523ad724",
+			"_tpl": "5448c12b4bdc2d02308b456f",
+			"parentId": "5db5d066f113b904523ad723",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5db5d066f113b904523ad725",
+			"_tpl": "573719762459775a626ccbc1",
+			"parentId": "5db5d066f113b904523ad724",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 7
+			}
+		}
+	]
+}

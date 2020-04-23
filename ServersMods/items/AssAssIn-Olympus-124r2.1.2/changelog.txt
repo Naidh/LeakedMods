@@ -1,0 +1,41 @@
+changelog
+	1.0.0
+		Initial release.
+	1.1.0
+		Added atlasSatchel. Cleaned up read-me.
+	1.2.0
+		Added mags for guns privously not covered (non 545,556,76239,ash12,p90)
+		Changed apollosAdrenaline to apollosPropital to better fit description of healing. Removed Blackened limbs fix (see next)
+		Added apollosCMS which only fixes blackened limbs. 100 uses.
+		Changed moneyCase to be 10x10 internal.
+		Changed keytool to be 10x10 internal and to accept dogTags.
+		Changed SICC case to be 10x10 internal and to accept intelDocs.
+		Changed all ammo to stack to 1000. No changes were made to ammo stats.
+		Changed 'ExaminedByDefault' to true for all mod items.
+	1.2.1
+		GRAPHICAL UPDATE. Added/changed mags for each gun: SA-58 for instance does not look good using the hunter mag model or the SR-25 mag model.
+	1.2.2
+		Allowed AK101 and AK102 to accept the ares556 mag (nato round).
+	1.0.0
+		Converted to r23.
+	1.0.1
+		Fixed graphical issue with the ares 556 mag being held by the finger tips, its now held correctly when reloading/pulling mag out.
+		Added instructions for workarounds for allItemExamined and noHolsterRestriction mods to the readme.
+		Color coded ammo based on pen/flesh damage values
+			Red    = Best flesh damage for caliber.
+			Blue   = Best penetration for caliber.
+			Purple = Best hybrid of pen and flesh damage.
+			Not colored = don't bother with this crap ammo unless you have no other option.
+	1.0.2
+		Fixed the /assort/ folder to properly list for r23.3
+	1.0.3
+		Updated to 0.12.4-R1
+	124r1.1.0
+		Changed version naming so its easy to know which EMU version its built for.
+	124r2.1.0
+		Added armband with negative weight to offset weight/stamina changes in EFT 0.12.4.x
+		Switched names of armor, magazine, armband (new), to better reflect mythology lore.
+	124r2.1.1
+		Chagned armband to chest rig so that you get the negative weight effect even if your strength skill is maxed.
+	124r2.1.2
+		Updated "default inventory" json to be more clean by using parent ids for helmet, earpieces.

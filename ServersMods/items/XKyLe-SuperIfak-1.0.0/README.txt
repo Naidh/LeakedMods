@@ -1,0 +1,1 @@
+"Removes bloodloss, fracture, pain, contusion, toxication, radExposure and destroyedPart. MaxHpResource increased to 3000. hpResourceRate to 200"

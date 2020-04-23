@@ -1,0 +1,207 @@
+{
+	"_id": "sixthQuest_terragroupSpecialist",
+	"traderId": "TerraGroup_Specialist",
+	"location": "Laboratory",
+	"image": "/files/quest/icon/sixthQuest_terragroupSpecialist.jpg",
+	"type": "WeaponAssembly",
+	"isKey": false,
+	"restartable": false,
+	"min_level": 0,
+	"canShowNotificationsInGame": true,
+	"rewards": {
+		"Started": [],
+		"Success": [
+			{
+				"value": "25000",
+				"id": "ExperienceID",
+				"type": "Experience",
+				"index": 0
+			},
+			{
+				"target": "sixthQuest_terragroupSpecialist_sixthReward_id",
+				"value": "1",
+				"id": "sixthQuest_terragroupSpecialist_sixthReward",
+				"type": "Item",
+				"index": 2,
+				"items": [
+					{
+						"_id": "sixthQuest_terragroupSpecialist_sixthReward_id",
+						"_tpl": "terragroupSpecialist_prototype_m4a1"
+					},
+					{
+						"_id": "I311945178356036005CkKME",
+						"_tpl": "5a339805c4a2826c6e06d73d",
+						"parentId": "sixthQuest_terragroupSpecialist_sixthReward_id",
+						"slotId": "mod_pistol_grip"
+					},
+					{
+						"_id": "I311945172250083220gnRqa",
+						"_tpl": "terragroupSpecialist_genm3_fde",
+						"parentId": "sixthQuest_terragroupSpecialist_sixthReward_id",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "I311945176081178177pAkJd",
+						"_tpl": "55d355e64bdc2d962f8b4569",
+						"parentId": "sixthQuest_terragroupSpecialist_sixthReward_id",
+						"slotId": "mod_reciever"
+					},
+					{
+						"_id": "I311945174517480264BujAo",
+						"_tpl": "5649be884bdc2d79388b4577",
+						"parentId": "sixthQuest_terragroupSpecialist_sixthReward_id",
+						"slotId": "mod_stock"
+					},
+					{
+						"_id": "I311945179310997676czeW3",
+						"_tpl": "55d44fd14bdc2d962f8b456e",
+						"parentId": "sixthQuest_terragroupSpecialist_sixthReward_id",
+						"slotId": "mod_charge"
+					},
+					{
+						"_id": "I311945179716601347ptppF",
+						"_tpl": "558022b54bdc2dac148b458d",
+						"parentId": "I311945176081178177pAkJd",
+						"slotId": "mod_scope"
+					},
+					{
+						"_id": "I311945174725007703N5O1y",
+						"_tpl": "55d3632e4bdc2d972f8b4569",
+						"parentId": "I311945176081178177pAkJd",
+						"slotId": "mod_barrel"
+					},
+					{
+						"_id": "I311945178050146534u2HZI",
+						"_tpl": "5c9a25172e2216000f20314e",
+						"parentId": "I311945176081178177pAkJd",
+						"slotId": "mod_handguard"
+					},
+					{
+						"_id": "I311945176277101254yTNIw",
+						"_tpl": "5d135ecbd7ad1a21c176542e",
+						"parentId": "I311945174517480264BujAo",
+						"slotId": "mod_stock_000"
+					},
+					{
+						"_id": "I311945172340501295yldWC",
+						"_tpl": "5cf6937cd7f00c056c53fb39",
+						"parentId": "I311945174725007703N5O1y",
+						"slotId": "mod_muzzle"
+					},
+					{
+						"_id": "I311945178111006675Xpqih",
+						"_tpl": "56eabcd4d2720b66698b4574",
+						"parentId": "I311945174725007703N5O1y",
+						"slotId": "mod_gas_block"
+					},
+					{
+						"_id": "I311945177154937664B8H5I",
+						"_tpl": "588226dd24597767ad33f789",
+						"parentId": "I311945178050146534u2HZI",
+						"slotId": "mod_foregrip"
+					}
+				]
+			}
+		],
+		"Fail": []
+	},
+	"conditions": {
+		"AvailableForStart": [
+			{
+				"_parent": "Level",
+				"_props": {
+					"compareMethod": ">=",
+					"value": "62",
+					"index": 0,
+					"parentId": "",
+					"id": "sixthQuest_terragroupSpecialist_levelRequir"
+				}
+			},
+			{
+				"_parent": "Quest",
+				"_props": {
+					"target": "fifthQuest_terragroupSpecialist",
+					"status": 4,
+					"index": 1,
+					"parentId": "",
+					"id": ""
+				}
+			}
+		],
+		"AvailableForFinish": [
+			{
+				"_parent": "WeaponAssembly",
+				"_props": {
+					"target": [
+						"5447a9cd4bdc2dbd208b4567"
+					],
+					"value": "1",
+					"durability": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"ergonomics": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"baseAccuracy": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"recoil": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"muzzleVelocity": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"weight": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"magazineCapacity": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"width": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"height": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"effectiveDistance": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"emptyTacticalSlot": {
+						"value": 0,
+						"compareMethod": ">="
+					},
+					"hasItemFromCategory": [],
+					"containsItems": [
+						"5a339805c4a2826c6e06d73d",
+						"5d1340b3d7ad1a0b52682ed7",
+						"55d355e64bdc2d962f8b4569",
+						"5649be884bdc2d79388b4577",
+						"55d44fd14bdc2d962f8b456e",
+						"558022b54bdc2dac148b458d",
+						"55d3632e4bdc2d972f8b4569",
+						"5c9a25172e2216000f20314e",
+						"5d135ecbd7ad1a21c176542e",
+						"5cf6937cd7f00c056c53fb39",
+						"56eabcd4d2720b66698b4574",
+						"588226dd24597767ad33f789"
+					],
+					"index": 12,
+					"parentId": "",
+					"onlyFoundInRaid": true,
+					"id": "sixthQuest_terragroupSpecialist_FirstRequir1"
+				}
+			}
+		],
+		"Fail": []
+	}
+}

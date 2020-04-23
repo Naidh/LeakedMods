@@ -1,0 +1,86 @@
+{
+	"Id": "Loot_sport_bag (4)1685858",
+	"IsStatic": false,
+	"useGravity": false,
+	"randomRotation": false,
+	"Position": {
+		"x": 0.419296265,
+		"y": 3.072,
+		"z": 59.5069427
+	},
+	"Rotation": {
+		"x": 34.8521271,
+		"y": 348.536224,
+		"z": 281.4682
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5e68b28786f7745c395be298",
+	"Items": [
+		{
+			"_id": "5e68b28786f7745c395be298",
+			"_tpl": "56e33634d2720bd8058b456b"
+		},
+		{
+			"_id": "5e68b28786f7745c395be299",
+			"_tpl": "5d2f0d8048f0356c925bc3b0",
+			"parentId": "5e68b28786f7745c395be298",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			},
+			"upd": {
+				"FireMode": {
+					"FireMode": "single"
+				}
+			}
+		},
+		{
+			"_id": "5e68b28786f7745c395be29a",
+			"_tpl": "5d2f213448f0355009199284",
+			"parentId": "5e68b28786f7745c395be299",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "5e68b28786f7745c395be2a0",
+			"_tpl": "58864a4f2459770fcc257101",
+			"parentId": "5e68b28786f7745c395be29a",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 12
+			}
+		},
+		{
+			"_id": "5e68b28786f7745c395be29b",
+			"_tpl": "5d2f261548f03576f500e7b7",
+			"parentId": "5e68b28786f7745c395be299",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "5e68b28786f7745c395be29c",
+			"_tpl": "5d2f259b48f0355a844acd74",
+			"parentId": "5e68b28786f7745c395be29b",
+			"slotId": "mod_handguard"
+		},
+		{
+			"_id": "5e68b28786f7745c395be29d",
+			"_tpl": "5926d2be86f774134d668e4e",
+			"parentId": "5e68b28786f7745c395be29b",
+			"slotId": "mod_sight_rear"
+		},
+		{
+			"_id": "5e68b28786f7745c395be29e",
+			"_tpl": "5d2f25bc48f03502573e5d85",
+			"parentId": "5e68b28786f7745c395be29b",
+			"slotId": "mod_stock"
+		},
+		{
+			"_id": "5e68b28786f7745c395be29f",
+			"_tpl": "5d2f2d5748f03572ec0c0139",
+			"parentId": "5e68b28786f7745c395be299",
+			"slotId": "mod_charge"
+		}
+	]
+}

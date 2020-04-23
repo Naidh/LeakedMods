@@ -1,0 +1,74 @@
+{
+	"name": "HealthRebalance",
+	"author": "Ivandrov",
+	"description": "Changes bot PMC's and bosses health to be the same as SCAVs and players.",
+	"license": "None",
+	"version": "1.0.0",
+	"dependencies": [],
+	"src":{},
+	"res":{},
+	"db": {
+		"bots": {
+			"bear": {
+				"health": {
+					"default": "db/bots/bear/health/default.json"
+				}
+			},
+			"bossbully": {
+				"health": {
+					"default": "db/bots/bossbully/health/default.json"
+				}
+			},
+			"bossgluhar": {
+				"health": {
+					"default": "db/bots/bossgluhar/health/default.json"
+				}
+			},
+			"bosskilla": {
+				"health": {
+					"default": "db/bots/bosskilla/health/default.json"
+				}
+			},
+			"bosskojaniy": {
+				"health": {
+					"default": "db/bots/bosskojaniy/health/default.json"
+				}
+			},
+			"followerbully": {
+				"health": {
+					"default": "db/bots/followerbully/health/default.json"
+				}
+			},
+			"followergluharassault": {
+				"health": {
+					"default": "db/bots/followergluharassault/health/default.json"
+				}
+			},
+			"followergluharscout": {
+				"health": {
+					"default": "db/bots/followergluharscout/health/default.json"
+				}
+			},
+			"followergluharsecurity": {
+				"health": {
+					"default": "db/bots/followergluharsecurity/health/default.json"
+				}
+			},
+			"followerkojaniy": {
+				"health": {
+					"default": "db/bots/followerkojaniy/health/default.json"
+				}
+			},
+			"pmcbot": {
+				"health": {
+					"default": "db/bots/pmcbot/health/default.json"
+				}
+			},
+			"usec": {
+				"health": {
+					"default": "db/bots/usec/health/default.json"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "DrumVest",
+	"author": "Frumorn",
+	"version": "1.0.0",
+	"license": "None",
+	"dependencies": {},
+	"db": {
+		"items": {
+			"DrumVest": "db/items/DrumVest.json"
+		},
+		"templates": {
+			"items": {
+				"DrumVest": "db/templates/items/DrumVest.json"
+			}
+		},
+		"assort": {
+			"ragfair": {
+				"items": {
+					"DrumVest": "db/assort/ragfair/items/DrumVest.json"
+				}
+			}
+		}
+	}
+}
