@@ -8,6 +8,7 @@ This mod changes all normal scavs spawn on all maps to the Killa boss.
 
 ### Emu-AllOfficialLoot-1.0.0
 This mod greatly increases the variety of loot that can be found in raid, adding in all the official map loot.
+This mod does not provide key spawns.
 
 ### Leorocky-NoEscapeFromTarkov-1.0.3 - Made by Leorocky
 This mod greatly increases difficulty by setting all bot difficulty to impossible, adding more boss spawns, and adding in new spawn points. Maps are now locked behind player level in an attempt to create a difficult experience with a sense of progression. More info in its readme file.
