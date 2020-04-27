@@ -127,3 +127,14 @@ SICC case retains its original size ratio (5x5) with expanded filters. You can n
 
 ### Deluxxed-50CalMakarov-1.0.0 - Made by Deluxxed
 "This literally only adds the ability to shoot 12.7x108 out of a pm and a pm (t). Enjoy"
+
+### Psifour-Omniscient-1.0.0 - Made by Psifour
+Makes all items identified without editing db/items.
+This reduces the risk of mod conflicts if another mod also changes any items in the DB.
+
+### Psifour-Lockbox-1.0.0 - Made by Psifour
+Adds five additional secure containers.
+The Lockboxes use the same naming convention as the retail secure containers.
+
+These containers add more variation in size and layout which enables more control over what size of container one uses. 
+As a general rule a secure container of the same tier will be larger or less compartmentalized than the equivalent Lockbox.

@@ -17,3 +17,6 @@ This mod adds more bots, activate more spawn points, increased waves number, inc
 
 ### Chief-UnlimitedTime-2.0.0 - Made by Chief
 This change all maps escape time to be a more way larger
+
+### Emu-AllOfficialKeys-1.0.0
+This mod adds every official keys spawns on each maps. If you want to have a normal tarkov progression, you absolutely need this mod.
