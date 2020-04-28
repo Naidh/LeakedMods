@@ -3,12 +3,9 @@
 	"author": "Sorata",
 	"description": "Mod made by Sorata, EN translation made by Kiva#5854 thanks for his awesome work !",
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"dependencies": [],
-	"src":{
-		"quest_f": "src/classes/quest.js",
-		"trader_f": "src/classes/trader.js"
-	},
+	"src":{},
 	"res":{
 		"quest":{
 			"firstQuest_terragroupSpecialist": "res/quest/firstQuest_terragroupSpecialist.png",
@@ -58,8 +55,23 @@
 					"terragroupSpecialist_genm3_fde":"db/assort/TerraGroup_Specialist/barter_scheme/terragroupSpecialist_genm3_fde.json",
 					"euros":"db/assort/TerraGroup_Specialist/barter_scheme/euros.json"
 				},
+				"quests":{
+					"secondQuest_terragroupSpecialist":"db/quests/secondQuest_terragroupSpecialist.json",
+					"thirdQuest_terragroupSpecialist":"db/quests/thirdQuest_terragroupSpecialist.json",
+					"fourthQuest_terragroupSpecialist":"db/quests/fourthQuest_terragroupSpecialist.json",
+					"fifthQuest_terragroupSpecialist":"db/quests/fifthQuest_terragroupSpecialist.json",
+					"sixthQuest_terragroupSpecialist":"db/quests/sixthQuest_terragroupSpecialist.json",
+					"seventhQuest_terragroupSpecialist":"db/quests/seventhQuest_terragroupSpecialist.json",
+					"eighthQuest_terragroupSpecialist":"db/quests/eighthQuest_terragroupSpecialist.json",
+					"ninthQuest_terragroupSpecialist":"db/quests/ninthQuest_terragroupSpecialist.json"
+				},
 				"base":"db/assort/TerraGroup_Specialist/base.json",
 				"categories":"db/assort/TerraGroup_Specialist/categories.json"
+			},
+			"579dc571d53a0658a154fbec":{
+				"quests":{
+					"firstQuest_terragroupSpecialist":"db/quests/firstQuest_terragroupSpecialist.json"
+				}
 			}
 		},
 		"locales":{
@@ -177,18 +189,6 @@
 					"TerraGroup_Specialist":"db/locales/en/trading/TerraGroup_Specialist.json"
 				}
 			}
-		},
-		"templates":{},
-		"quests":{
-			"firstQuest_terragroupSpecialist":"db/quests/firstQuest_terragroupSpecialist.json",
-			"secondQuest_terragroupSpecialist":"db/quests/secondQuest_terragroupSpecialist.json",
-			"thirdQuest_terragroupSpecialist":"db/quests/thirdQuest_terragroupSpecialist.json",
-			"fourthQuest_terragroupSpecialist":"db/quests/fourthQuest_terragroupSpecialist.json",
-			"fifthQuest_terragroupSpecialist":"db/quests/fifthQuest_terragroupSpecialist.json",
-			"sixthQuest_terragroupSpecialist":"db/quests/sixthQuest_terragroupSpecialist.json",
-			"seventhQuest_terragroupSpecialist":"db/quests/seventhQuest_terragroupSpecialist.json",
-			"eighthQuest_terragroupSpecialist":"db/quests/eighthQuest_terragroupSpecialist.json",
-			"ninthQuest_terragroupSpecialist":"db/quests/ninthQuest_terragroupSpecialist.json"
 		},
 		"locations":{
 			"laboratory":{
