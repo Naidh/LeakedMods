@@ -1,0 +1,49 @@
+{
+    "name": "AK9",
+    "author": "Kiva",
+    "license": "MIT",
+    "version": "1.0.0",
+    "dependencies": {},
+    "db": {
+      "locales": {
+        "en": { 
+          "templates": {
+            "ak-9": "db/locales/en/templates/ak-9.json"
+          }
+        },
+        "fr": { 
+          "templates": {
+            "ak-9": "db/locales/fr/templates/ak-9.json"
+          }
+        },
+        "ge": { 
+          "templates": {
+            "ak-9": "db/locales/ge/templates/ak-9.json"
+          }
+        },
+        "ru": { 
+          "templates": {
+            "ak-9": "db/locales/ru/templates/ak-9.json"
+          }
+        }
+      },
+      "items": {
+        "ak-9": "db/items/ak-9.json"
+      },
+      "templates": {
+        "items": {
+        "ak-9": "db/templates/ak-9.json"
+        }
+      },
+      "assort": {
+        "ragfair": {
+          "items": {
+            "ak-9": "db/assort/ragfair/items/ak-9.json"
+          },
+          "barter_scheme": {
+            "ak-9": "db/assort/ragfair/barter_scheme/ak-9.json"
+          }
+        }
+      }
+    }
+}

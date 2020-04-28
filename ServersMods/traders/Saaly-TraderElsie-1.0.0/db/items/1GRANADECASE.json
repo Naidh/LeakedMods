@@ -1,0 +1,112 @@
+{
+	"_id": "1GRANADECASE",
+	"_name": "Granade_Case",
+	"_parent": "5671435f4bdc2d96058b4569",
+	"_type": "Item",
+	"_props": {
+		"Name": "Carbon case",
+		"ShortName": "Carbon case",
+		"Description": "Carbon case",
+		"Weight": 6,
+		"BackgroundColor": "default",
+		"Width": 3,
+		"Height": 3,
+		"StackMaxSize": 1,
+		"Rarity": "Not_exist",
+		"SpawnChance": 0,
+		"CreditsPrice": 175000,
+		"ItemSound": "container_case",
+		"Prefab": {
+			"path": "assets/content/items/quest/item_quest_container_carbon_case/item_quest_container_carbon_case.bundle",
+			"rcid": ""
+		},
+		"UsePrefab": {
+			"path": "",
+			"rcid": ""
+		},
+		"StackObjectsCount": 1,
+		"NotShownInSlot": false,
+		"ExaminedByDefault": false,
+		"ExamineTime": 1,
+		"IsUndiscardable": false,
+		"IsUnsaleable": false,
+		"IsUnbuyable": false,
+		"IsUngivable": false,
+		"IsLockedafterEquip": false,
+		"QuestItem": true,
+		"LootExperience": 100,
+		"ExamineExperience": 50,
+		"HideEntrails": true,
+		"RepairCost": 0,
+		"RepairSpeed": 0,
+		"ExtraSizeLeft": 0,
+		"ExtraSizeRight": 0,
+		"ExtraSizeUp": 0,
+		"ExtraSizeDown": 0,
+		"ExtraSizeForceAdd": false,
+		"MergesWithChildren": false,
+		"CanSellOnRagfair": true,
+		"CanRequireOnRagfair": true,
+		"BannedFromRagfair": false,
+		"ConflictingItems": [],
+		"FixedPrice": false,
+		"Unlootable": false,
+		"UnlootableFromSlot": "FirstPrimaryWeapon",
+		"UnlootableFromSide": [],
+		"ChangePriceCoef": 1,
+		"AllowSpawnOnLocations": [],
+		"SendToClient": false,
+		"AnimationVariantsNumber": 0,
+		"DiscardingBlock": false,
+		"Grids": [
+			{
+				"_name": "main",
+				"_id": "5910922b86f7747d96753484",
+				"_parent": "5910922b86f7747d96753483",
+				"_props": {
+					"filters": [
+						{
+							"Filter": [
+								"5a0c27731526d80618476ac4",
+								"5448be9a4bdc2dfd2f8b456a",
+								"5a2a57cfc4a2826c6e06d44a",
+								"58d3db5386f77426186285a0",
+								"5710c24ad2720bc3458b45a3"
+							],
+							"ExcludedFilter": []
+						}
+					],
+					"cellsH": 8,
+					"cellsV": 8,
+					"minCount": 0,
+					"maxCount": 0,
+					"maxWeight": 0
+				},
+				"_proto": "55d329c24bdc2d892f8b4567"
+			}
+		],
+		"Slots": [
+			{
+				"_name": "cartridges",
+				"_id": "574d55f624597745a21eb3da",
+				"_parent": "5737280e24597765cc785b5c",
+				"_max_count": 16,
+				"_props": {
+				  "filters": [
+					{
+					  "Filter": [
+						"5737207f24597760ff7b25f2"
+					  ]
+					}
+				  ]
+				},
+				"_proto": "5748538b2459770af276a261"
+			  }			
+		],
+		"CanPutIntoDuringTheRaid": true,
+		"CantRemoveFromSlotsDuringRaid": [],
+		"TagColor": 0,
+		"TagName": ""
+	},
+	"_proto": "567143bf4bdc2d1a0f8b4567"
+}

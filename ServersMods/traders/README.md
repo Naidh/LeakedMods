@@ -32,3 +32,10 @@ These items also sell for more, to emulate you selling them on the flea to other
 
 ### AssAssIn-PraporBuysAll-124r2.1.0 - Made By AssAssIn
 This make prapor buy every items
+
+### Saaly-TraderElsie-1.0.0
+New trader with the following features:
+· Unique, non-sellable items
+· Objects with modifications to their characteristics
+· Progression level to unlock better items
+· Elsie only trades in valuables.
