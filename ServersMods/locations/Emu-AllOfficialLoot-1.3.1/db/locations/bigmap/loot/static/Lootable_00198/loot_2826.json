@@ -1,0 +1,56 @@
+{
+	"Id": "Lootable_00198",
+	"IsStatic": true,
+	"useGravity": true,
+	"randomRotation": false,
+	"Position": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"Rotation": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"IsGroupPosition": false,
+	"GroupPositions": [],
+	"Root": "5ea2d1d586f7741183618743",
+	"Items": [
+		{
+			"_id": "5ea2d1d586f7741183618743",
+			"_tpl": "5d6d2bb386f774785b07a77a"
+		},
+		{
+			"_id": "5ea2d1d586f7741183618744",
+			"_tpl": "577e1c9d2459773cd707c525",
+			"parentId": "5ea2d1d586f7741183618743",
+			"slotId": "main",
+			"location": {
+				"x": 0,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5ea2d1d586f7741183618745",
+			"_tpl": "573722e82459776104581c21",
+			"parentId": "5ea2d1d586f7741183618743",
+			"slotId": "main",
+			"location": {
+				"x": 2,
+				"y": 0,
+				"r": 0
+			}
+		},
+		{
+			"_id": "5ea2d1d586f7741183618746",
+			"_tpl": "573718ba2459775a75491131",
+			"parentId": "5ea2d1d586f7741183618745",
+			"slotId": "cartridges",
+			"upd": {
+				"StackObjectsCount": 16
+			}
+		}
+	]
+}
